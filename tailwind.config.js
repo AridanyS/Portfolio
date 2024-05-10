@@ -1,17 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}', 'index.html'],
+  content: ["./index.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
-        papayawhip: { /* En el caso de querer cambiar de color. Usa primero dark: para aplicarlo en el modo oscuro */
-          light: '#fef4e4',
-          DEFAULT: '#ffefd5',
-          dark: '#fee5bc',
-        }
+        "page": "#101010",
       },
     },
   },
   plugins: [],
-}
-
+};
