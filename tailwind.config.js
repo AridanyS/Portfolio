@@ -6,6 +6,11 @@ module.exports = {
     extend: {
       fontFamily:{
         'Cormorant': ["Cormorant Garamond", 'serif'],
+        'Roboto': ["Roboto", 'sans-serif'],
+        'Montserrat': ['Montserrat', 'sans-serif'],
+        'Caslon': ['Libre Caslon', 'Text', 'serif'],
+        'Titillium': ['Titillium Web', 'sans-serif'],
+        'work-sans':['Work Sans', 'sans-serif'],
       },
       colors: {
         "page": "#101010",
