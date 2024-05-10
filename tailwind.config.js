@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 // eslint-disable-next-line no-undef
 module.exports = {
-  content: ["./index.html", "./src/**/*.{html,js}"],
+  content: ["./index.html", "./src/components/Avatar.jsx", "./src/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily:{
@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         "page": "#101010",
+        "page-white": "#FFFFFF",
       },
     },
   },
