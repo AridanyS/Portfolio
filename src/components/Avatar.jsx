@@ -22,17 +22,19 @@ export default function AvatarPicture() {
 
   return (
     <>
-      <div className="flex items-center justify-center w-screen ">
-        <Avatar src="./images/foto.jfif" className="w-24 h-24" />
+      <header>
+        <div className="flex items-center justify-center w-screen ">
+          <Avatar src="./images/foto.jfif" className="w-24 h-24" />
 
-        <div
-          className="border border-slate-500 border-1"
-          onClick={handleOpen}
-          style={{ cursor: "pointer" }}
-        >
-          Sobre mí
+          <div
+            className="border border-slate-500 border-1"
+            onClick={handleOpen}
+            style={{ cursor: "pointer" }}
+          >
+            Sobre mí
+          </div>
         </div>
-      </div>
+      </header>
 
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
         <ModalContent>
