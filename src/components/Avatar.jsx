@@ -11,7 +11,6 @@ import {
 } from "@nextui-org/react";
 
 export default function AvatarPicture() {
-  /* Modal Component */
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [backdrop, setBackdrop] = React.useState("blur");
 
