@@ -5,7 +5,7 @@ module.exports = {
     "./index.html",
     "./src/components/Avatar.jsx",
     "./src/**/*.{html,js}",
-        './node_modules/@nextui-org/theme/dist/components/(avatar|input).js'
+        './node_modules/@nextui-org/theme/dist/components/(avatar|modal).js'
   ],
 
   theme: {
@@ -19,7 +19,7 @@ module.exports = {
         "work-sans": ["Work Sans", "sans-serif"],
       },
       colors: {
-        page: "#101010",
+        "page-black": "#101010",
         "page-white": "#FFFFFF",
       },
     },
