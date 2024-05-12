@@ -4,6 +4,7 @@ module.exports = {
   content: [
     "./index.html",
     "./src/components/Avatar.jsx",
+    "./src/components/Technologies.jsx",
     "./src/**/*.{html,js}",
         './node_modules/@nextui-org/theme/dist/components/(avatar|modal).js'
   ],
