@@ -4,9 +4,9 @@ module.exports = {
   content: [
     "./index.html",
     "./src/components/Avatar.jsx",
-    "./src/components/Technologies.jsx",
+    "./src/components/Projects.jsx",
     "./src/**/*.{html,js}",
-        './node_modules/@nextui-org/theme/dist/components/(avatar|modal).js'
+        './node_modules/@nextui-org/theme/dist/components/(avatar|modal|card).js'
   ],
 
   theme: {
