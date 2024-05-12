@@ -30,7 +30,7 @@ export default function AvatarPicture() {
             onClick={handleOpen}
             style={{ cursor: "pointer" }}
           >
-            Sobre mí
+            About me
           </div>
         </div>
       </header>
@@ -65,9 +65,6 @@ export default function AvatarPicture() {
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>
                   Close
-                </Button>
-                <Button color="primary" onPress={onClose}>
-                  Action
                 </Button>
               </ModalFooter>
             </>
