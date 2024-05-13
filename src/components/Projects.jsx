@@ -6,30 +6,21 @@ export default function ProjectsGrid() {
     <>
       <div className="w-full">
         <div className="grid w-full grid-cols-1 justify-items-center">
-        Projects
+          Projects
           <img
             src="../images/Drag-Drop.png"
             alt="web_drag-drop"
             className="w-3/5"
           ></img>
-
           <img
             src="../images/chiwawa.png"
             alt="restaurante_chiwawa"
             className="w-3/5"
           ></img>
-
-          <img
-            src="../images/rocket.png"
-            alt="rocket"
-            className="w-3/5"
-          ></img>
-
-          <img
-            src="../images/airbnb.png"
-            alt="airbnb"
-            className="w-3/5"
-          ></img>
+          <img src="../images/rocket.png" 
+            alt="rocket" 
+            className="w-3/5"></img>
+          <img src="../images/airbnb.png" alt="airbnb" className="w-3/5"></img>
         </div>
       </div>
     </>
