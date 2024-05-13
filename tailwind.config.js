@@ -22,6 +22,8 @@ module.exports = {
       colors: {
         "page-black": "#101010",
         "page-white": "#FFFFFF",
+        "borderProject":"#FE9835",
+        
       },
     },
   },

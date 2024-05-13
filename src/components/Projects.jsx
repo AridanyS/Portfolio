@@ -4,70 +4,56 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-creative";
+import 'swiper/css/effect-cube';
+import 'swiper/css/pagination';
+import { EffectCube, Pagination } from 'swiper/modules';
 
-import { EffectCreative } from "swiper/modules";
+//import { EffectCreative } from "swiper/modules";
 
 export default function ProjectsGrid() {
   return (
     <>
-    
-      projects
-      <article className="relative mx-20">
-      <Swiper 
-      centeredSlides={true}
-        grabCursor={true}
-        effect={'creative'}
-        creativeEffect={{
-          prev: {
-            shadow: true,
-            origin: 'left center',
-            translate: ['-5%', 0, -200],
-            rotate: [0, 100, 0],
-          },
-          next: {
-            origin: 'right center',
-            translate: ['5%', 0, -200],
-            rotate: [0, -100, 0],
-          },
-        }}
-        modules={[EffectCreative]}
-        className="mySwiper6"
-      >
-        
-        
+
+      <article className="container w-[70%] mx-auto ">
+        <Swiper
+          effect={'cube'}
+          grabCursor={true}
+          cubeEffect={{
+            shadow: false,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          }}
+          pagination={true}
+          modules={[EffectCube, Pagination]}
+          className="mySwiper"
+        >
           <SwiperSlide className="">
             <img
               src="../images/Drag-Drop.png"
               alt="web_drag-drop"
-              className="w-56 "
+              className=""
             ></img>
           </SwiperSlide>
           <SwiperSlide className="">
             <img
               src="../images/chiwawa.png"
               alt="restaurante_chiwawa"
-              className="w-56"
+              className=""
             ></img>
           </SwiperSlide>
           <SwiperSlide className="">
             <img
               src="../images/rocket.png"
               alt="rocket"
-              className="w-56"
+              className=""
             ></img>
           </SwiperSlide>
           <SwiperSlide className="">
-            <img
-              src="../images/airbnb.png"
-              alt="airbnb"
-              className="w-56 h-96"
-            ></img>
+            <img src="../images/airbnb.png" alt="airbnb" className=""></img>
           </SwiperSlide>
-          
-      </Swiper>
+        </Swiper>
       </article>
     </>
-
-    
   );
 }
