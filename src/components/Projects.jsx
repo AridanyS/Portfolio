@@ -12,7 +12,7 @@ export default function ProjectsGrid() {
     <>
     
       projects
-   
+      <article className="relative mx-20">
       <Swiper 
       centeredSlides={true}
         grabCursor={true}
@@ -20,49 +20,52 @@ export default function ProjectsGrid() {
         creativeEffect={{
           prev: {
             shadow: true,
-            translate: ['-120%', 0, -500],
+            origin: 'left center',
+            translate: ['-5%', 0, -200],
+            rotate: [0, 100, 0],
           },
           next: {
-            shadow: true,
-            translate: ['120%', 0, -500],
+            origin: 'right center',
+            translate: ['5%', 0, -200],
+            rotate: [0, -100, 0],
           },
         }}
         modules={[EffectCreative]}
-        className="mySwiper2"
+        className="mySwiper6"
       >
         
-        <div className="w-1/2">
-          <SwiperSlide className="w-1/2 left-1/4">
+        
+          <SwiperSlide className="">
             <img
               src="../images/Drag-Drop.png"
               alt="web_drag-drop"
-              className="w-52 "
+              className="w-56 "
             ></img>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="">
             <img
               src="../images/chiwawa.png"
               alt="restaurante_chiwawa"
-              className="w-52"
+              className="w-56"
             ></img>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="">
             <img
               src="../images/rocket.png"
               alt="rocket"
-              className="w-52 h-1/2"
+              className="w-56"
             ></img>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="">
             <img
               src="../images/airbnb.png"
               alt="airbnb"
-              className="w-52 h-96"
+              className="w-56 h-96"
             ></img>
           </SwiperSlide>
-          </div>
+          
       </Swiper>
-      
+      </article>
     </>
 
     
