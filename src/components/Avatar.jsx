@@ -6,7 +6,7 @@ import {
   ModalHeader,
   ModalBody,
   ModalFooter,
-  Button,
+  //Button,
   useDisclosure,
 } from "@nextui-org/react";
 
@@ -36,12 +36,14 @@ export default function AvatarPicture() {
       </header>
 
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
-        <ModalContent>
-          {(onClose) => (
+        <ModalContent className="rounded-lg bg-background-Modal opacity-95 text-text-modal">
+          {(//Button) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">
-                Modal Title
+              <ModalHeader className="flex flex-col gap-1 pt-2 pb-2 font-bold ">
+                About me
+                <div className="h-[0.5px] w-[100%] bg-text-modal"/>
               </ModalHeader>
+              
               <ModalBody>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -63,9 +65,9 @@ export default function AvatarPicture() {
                 </p>
               </ModalBody>
               <ModalFooter>
-                <Button color="danger" variant="light" onPress={onClose}>
-                  Close
-                </Button>
+                <p>
+                Thanks for reading!
+                </p>
               </ModalFooter>
             </>
           )}

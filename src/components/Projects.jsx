@@ -28,7 +28,7 @@ export default function ProjectsGrid() {
           }}
           pagination={false}
           modules={[EffectCube, Pagination]}
-          className="mySwiper"
+          className="justify-center mySwiper"
         >
           <SwiperSlide className="">
             <img

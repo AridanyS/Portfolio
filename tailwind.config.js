@@ -6,7 +6,7 @@ module.exports = {
     "./src/components/Avatar.jsx",
     "./src/components/Projects.jsx",
     "./src/**/*.{html,js}",
-        './node_modules/@nextui-org/theme/dist/components/(avatar|modal|card).js'
+        './node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|).js'
   ],
 
   theme: {
@@ -23,7 +23,9 @@ module.exports = {
         "page-black": "#101010",
         "page-white": "#FFFFFF",
         "borderProject":"#FE9835",
-        
+
+        "background-Modal":"#0d0d0d",
+        "text-modal":"#666654",
       },
     },
   },
