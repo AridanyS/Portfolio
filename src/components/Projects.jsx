@@ -21,21 +21,25 @@ export default function ProjectsGrid() {
           style={{
             "--swiper-pagination-bullet-size": "9px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
+           // dont work "--swiper-pagination-bullet-vertical-gap": "40px",
             "--swiper-pagination-bullet-inactive-opacity": "1",
-            "--swiper-pagination-color": "#666654",
+            "--swiper-pagination-color": "#989783",
             "--swiper-pagination-bullet-inactive-color": "#0d0d0d",
+            
           }}
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={"auto"}
           coverflowEffect={{
-            rotate: 50,
+            rotate: 250,
             stretch: 20,
-            depth: 10000,
+            depth: 9000,
             modifier: 1,
             slideShadows: true,
+            //scale: 5,
           }}
+
           pagination={{
             clickable: true,
           }}
