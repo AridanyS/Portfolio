@@ -5,7 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-import { EffectCube, Pagination } from "swiper/modules";
+//import { EffectCube, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination } from "swiper/modules";
 
 //import { EffectCreative } from "swiper/modules";
 
@@ -17,16 +18,28 @@ export default function ProjectsGrid() {
       left-[22%]"
       >
         <Swiper
-          effect={"cube"}
-          grabCursor={true}
-          cubeEffect={{
-            shadow: false,
-            slideShadows: true,
-            shadowOffset: 20,
-            shadowScale: 0.94,
+          style={{
+            "--swiper-pagination-bullet-size": "9px",
+            "--swiper-pagination-bullet-horizontal-gap": "6px",
+            "--swiper-pagination-bullet-inactive-opacity": "1",
+            "--swiper-pagination-color": "#666654",
+            "--swiper-pagination-bullet-inactive-color": "#0d0d0d",
           }}
-          pagination={false}
-          modules={[EffectCube, Pagination]}
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 20,
+            depth: 10000,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
           <SwiperSlide className="">
