@@ -15,17 +15,16 @@ export default function ProjectsGrid() {
     <>
       <article
         className="container w-[55%] mx-auto absolute top-[20%]  
-      left-[22%]"
+      left-[23%]"
       >
         <Swiper
           style={{
             "--swiper-pagination-bullet-size": "9px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
-           // dont work "--swiper-pagination-bullet-vertical-gap": "40px",
+            // dont work "--swiper-pagination-bullet-vertical-gap": "40px",
             "--swiper-pagination-bullet-inactive-opacity": "1",
             "--swiper-pagination-color": "#989783",
             "--swiper-pagination-bullet-inactive-color": "#0d0d0d",
-            
           }}
           effect={"coverflow"}
           grabCursor={true}
@@ -39,7 +38,6 @@ export default function ProjectsGrid() {
             slideShadows: true,
             //scale: 5,
           }}
-
           pagination={{
             clickable: true,
           }}
@@ -47,20 +45,22 @@ export default function ProjectsGrid() {
           className="mySwiper"
         >
           <SwiperSlide className="">
+            <div className="w-[95px] font-bold flex text-sm justify-evenly items-center h-[24px] absolute left-[105px] rounded text-pink-Plusdark bg-pink-light ">
+              Drag & Drop
+              <a href="https://drag-drop-khaki.vercel.app" className="rounded hover:bg-pink-dark ">
+                <img
+                  src="../images/deploy.svg"
+                  alt="deploy"
+                  className="h-5 color-text-modal"
+                ></img>
+              </a>
+            </div>
             <img
               src="../images/Drag-Drop.png"
               alt="web_drag-drop"
               className="h-[350px]"
             ></img>
-            <div className="absolute bottom-[1%] left-[3%] flex w-[95%] bg-background-Modal justify-evenly">
-              <span>Drag & drop</span>{" "}
-              <a
-                className="cursor-pointer"
-                href="https://drag-drop-khaki.vercel.app"
-              >
-                Deploy
-              </a>
-            </div>
+            
           </SwiperSlide>
 
           <SwiperSlide className=" border-text-modal">

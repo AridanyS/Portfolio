@@ -27,6 +27,14 @@ module.exports = {
 
         "background-Modal":"#0d0d0d",
         "text-modal":"#666654",
+        "text-modal-light":"#b3b2a3",
+        "text-modal-darker":"#3f3f35",
+        "text-modal-Plusdarker":"#373730",
+
+        "pink-dark":"#c3719e",
+        "pink-Plusdark":"#68334b",
+        "pink-light":"#e5bcd4",
+
       },
     },
   },
