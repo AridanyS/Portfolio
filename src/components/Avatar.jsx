@@ -26,7 +26,7 @@ export default function AvatarPicture() {
           <Avatar src="./images/foto.jfif" className="w-24 h-24" />
 
           <div
-            className="border border-slate-500 border-1"
+            className="border border-slate-500"
             onClick={handleOpen}
             style={{ cursor: "pointer" }}
           >
@@ -39,12 +39,12 @@ export default function AvatarPicture() {
         <ModalContent className="rounded-lg bg-background-Modal opacity-95 text-text-modal">
           {(//Button) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 pt-2 pb-2 font-bold ">
+              <ModalHeader className="flex flex-col gap-1 pt-3 pb-2 font-bold ">
                 About me
-                <div className="h-[0.5px] w-[100%] bg-text-modal"/>
+                <div className="h-[0.5px] bg-text-modal"/>
               </ModalHeader>
-              
-              <ModalBody>
+            
+              <ModalBody className="">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Nullam pulvinar risus non risus hendrerit venenatis.

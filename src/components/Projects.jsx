@@ -3,7 +3,6 @@ import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-creative";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import { EffectCube, Pagination } from "swiper/modules";
@@ -14,21 +13,21 @@ export default function ProjectsGrid() {
   return (
     <>
       <article
-        className="container w-[50%] mx-auto absolute top-[20%] 
-      left-[25%]"
+        className="container w-[55%] mx-auto absolute top-[20%]  
+      left-[22%]"
       >
         <Swiper
           effect={"cube"}
           grabCursor={true}
           cubeEffect={{
-            shadow: true,
+            shadow: false,
             slideShadows: true,
             shadowOffset: 20,
             shadowScale: 0.94,
           }}
           pagination={false}
           modules={[EffectCube, Pagination]}
-          className="justify-center mySwiper"
+          className="mySwiper"
         >
           <SwiperSlide className="">
             <img
@@ -36,8 +35,8 @@ export default function ProjectsGrid() {
               alt="web_drag-drop"
               className="h-[350px]"
             ></img>
-            <div className="bg-gray-500">
-              <span>Drag drop</span>{" "}
+            <div className="absolute bottom-[1%] left-[3%] flex w-[95%] bg-background-Modal justify-evenly">
+              <span>Drag & drop</span>{" "}
               <a
                 className="cursor-pointer"
                 href="https://drag-drop-khaki.vercel.app"
@@ -46,14 +45,24 @@ export default function ProjectsGrid() {
               </a>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="">
+
+          <SwiperSlide className=" border-text-modal">
             <img
               src="../images/chiwawa.png"
               alt="restaurante_chiwawa"
               className="h-[350px]"
             ></img>
-            chiwawa
+            <div className="absolute bottom-[1%] left-[3%] flex w-[95%] bg-background-Modal justify-evenly">
+              <span>Chiwawa</span>{" "}
+              <a
+                className="cursor-pointer"
+                href="https://aridanys.github.io/Proyecto-Sass/"
+              >
+                Deploy
+              </a>
+            </div>
           </SwiperSlide>
+
           <SwiperSlide className="">
             <img
               src="../images/rocket.png"
@@ -62,6 +71,7 @@ export default function ProjectsGrid() {
             ></img>
             Rocket
           </SwiperSlide>
+
           <SwiperSlide className="">
             <img
               src="../images/airbnb.png"

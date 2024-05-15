@@ -5,7 +5,8 @@ module.exports = {
     "./index.html",
     "./src/components/Avatar.jsx",
     "./src/components/Projects.jsx",
-    "./src/**/*.{html,js}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js,react}",
         './node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|).js'
   ],
 
