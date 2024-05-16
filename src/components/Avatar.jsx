@@ -22,28 +22,37 @@ export default function AvatarPicture() {
   return (
     <>
       <header>
-        <div className="flex items-center justify-center w-screen ">
-          <Avatar src="./images/foto.jfif" className="w-24 h-24" />
+        <h1>Aridany de la Fe Sarmiento</h1>
+        <nav>
+          <ul className="flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Technologies</a></li>
 
-          <div
-            className="border border-slate-500"
-            onClick={handleOpen}
-            style={{ cursor: "pointer" }}
-          >
-            About me
-          </div>
+          </ul>
+        </nav>
+        <div className="flex items-center justify-center ">
+          <Avatar src="./images/foto.jfif" className="w-24 h-24" />
         </div>
       </header>
-
+      <div
+        className="border border-slate-500"
+        onClick={handleOpen}
+        style={{ cursor: "pointer" }}
+      >
+        About me
+      </div>
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
         <ModalContent className="rounded-lg bg-background-Modal opacity-95 text-text-modal">
-          {(//Button) => (
+          {
+            //Button) => (
             <>
               <ModalHeader className="flex flex-col gap-1 pt-3 pb-2 font-bold ">
                 About me
-                <div className="h-[0.5px] bg-text-modal"/>
+                <div className="h-[0.5px] bg-text-modal" />
               </ModalHeader>
-            
+
               <ModalBody className="">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -61,12 +70,10 @@ export default function AvatarPicture() {
                 </p>
               </ModalBody>
               <ModalFooter>
-                <p>
-                Thanks for reading!
-                </p>
+                <p>Thanks for reading!</p>
               </ModalFooter>
             </>
-          )}
+          }
         </ModalContent>
       </Modal>
     </>
