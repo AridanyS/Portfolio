@@ -14,17 +14,17 @@ export default function ProjectsGrid() {
   return (
     <>
       <article
-        className="container w-[55%] mx-auto absolute top-[20%]  
-      left-[23%]"
+        className="container w-[80%] h-[35%] mx-auto absolute top-[20%] border-4 border-grey-semidarker
+      left-[10%]"
       >
         <Swiper
           style={{
             "--swiper-pagination-bullet-size": "9px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
-            // dont work "--swiper-pagination-bullet-vertical-gap": "40px",
+            "--swiper-pagination-bottom": "20px",
             "--swiper-pagination-bullet-inactive-opacity": "1",
-            "--swiper-pagination-color": "#989783",
-            "--swiper-pagination-bullet-inactive-color": "#0d0d0d",
+            "--swiper-pagination-color": "#b3b2a3",
+            "--swiper-pagination-bullet-inactive-color": "#373730",
           }}
           effect={"coverflow"}
           grabCursor={true}
@@ -45,37 +45,44 @@ export default function ProjectsGrid() {
           className="mySwiper"
         >
           <SwiperSlide className="">
-            <div className="w-[95px] font-bold flex text-sm justify-evenly items-center h-[24px] absolute left-[105px] rounded text-pink-Plusdark bg-pink-light ">
+            <img
+              src="../images/drag-drop.png"
+              alt="web_drag-drop"
+              className="h-[210px] w-[300px] object-cover"
+            ></img>
+
+            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
               Drag & Drop
-              <a href="https://drag-drop-khaki.vercel.app" className="rounded hover:bg-pink-dark ">
+              <a
+                href="https://drag-drop-khaki.vercel.app"
+                className="rounded hover:bg-pink-dark "
+              >
                 <img
                   src="../images/deploy.svg"
                   alt="deploy"
-                  className="h-5 color-text-modal"
+                  className="h-5 "
                 ></img>
               </a>
             </div>
-            <img
-              src="../images/Drag-Drop.png"
-              alt="web_drag-drop"
-              className="h-[350px]"
-            ></img>
-            
           </SwiperSlide>
 
           <SwiperSlide className=" border-text-modal">
             <img
               src="../images/chiwawa.png"
               alt="restaurante_chiwawa"
-              className="h-[350px]"
+              className="h-[210px] w-[300px] object-cover"
             ></img>
-            <div className="absolute bottom-[1%] left-[3%] flex w-[95%] bg-background-Modal justify-evenly">
-              <span>Chiwawa</span>{" "}
+            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
+              Chiwawa
               <a
-                className="cursor-pointer"
-                href="https://aridanys.github.io/Proyecto-Sass/"
+                href="https://drag-drop-khaki.vercel.app"
+                className="rounded hover:bg-pink-dark "
               >
-                Deploy
+                <img
+                  src="../images/deploy.svg"
+                  alt="deploy"
+                  className="h-5 "
+                ></img>
               </a>
             </div>
           </SwiperSlide>
@@ -84,18 +91,42 @@ export default function ProjectsGrid() {
             <img
               src="../images/rocket.png"
               alt="rocket"
-              className="h-[350px]"
+              className="h-[210px] w-[300px] object-cover"
             ></img>
-            Rocket
+            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
+              Acme Rockets
+              <a
+                href="https://sprightly-kataifi-24204e.netlify.app/"
+                className="rounded hover:bg-pink-dark "
+              >
+                <img
+                  src="../images/deploy.svg"
+                  alt="deploy"
+                  className="h-5 "
+                ></img>
+              </a>
+            </div>
           </SwiperSlide>
 
           <SwiperSlide className="">
             <img
               src="../images/airbnb.png"
               alt="airbnb"
-              className="h-[350px]"
+              className="h-[210px] w-[300px]"
             ></img>
-            <div>Airbnb</div>
+            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
+              Airbnb
+              <a
+                href="https://radiant-kataifi-bb334f.netlify.app/"
+                className="rounded hover:bg-pink-dark "
+              >
+                <img
+                  src="../images/deploy.svg"
+                  alt="deploy"
+                  className="h-5 "
+                ></img>
+              </a>
+            </div>
           </SwiperSlide>
         </Swiper>
       </article>

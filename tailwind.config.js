@@ -30,7 +30,7 @@ module.exports = {
         "text-modal-light":"#b3b2a3",
         "text-modal-darker":"#3f3f35",
         "text-modal-Plusdarker":"#373730",
-
+        "grey-semidarker": "#AEAD88",
         "background-DarkBrown": "#1C1C17",
 
         "pink-dark":"#c3719e",
