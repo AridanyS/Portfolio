@@ -14,7 +14,7 @@ export default function ProjectsGrid() {
   return (
     <>
       <article
-        className="container w-[80%] h-[35%] mx-auto absolute top-[20%] border-4 border-grey-semidarker
+        className="container w-[80%] h-[37.4%] mx-auto absolute top-[20%] rounded-lg border-8 border-grey-semidarker
       left-[10%]"
       >
         <Swiper
@@ -51,14 +51,14 @@ export default function ProjectsGrid() {
               className="h-[210px] w-[300px] object-cover"
             ></img>
 
-            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
               Drag & Drop
               <a
                 href="https://drag-drop-khaki.vercel.app"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/deploy.svg"
+                  src="../images/external-link.svg"
                   alt="deploy"
                   className="h-5 "
                 ></img>
@@ -72,14 +72,14 @@ export default function ProjectsGrid() {
               alt="restaurante_chiwawa"
               className="h-[210px] w-[300px] object-cover"
             ></img>
-            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
-              Chiwawa
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
+              Taquería Chiwawa
               <a
-                href="https://drag-drop-khaki.vercel.app"
+                href="https://aridanys.github.io/Proyecto-Sass/"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/deploy.svg"
+                  src="../images/external-link.svg"
                   alt="deploy"
                   className="h-5 "
                 ></img>
@@ -93,14 +93,14 @@ export default function ProjectsGrid() {
               alt="rocket"
               className="h-[210px] w-[300px] object-cover"
             ></img>
-            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
               Acme Rockets
               <a
                 href="https://sprightly-kataifi-24204e.netlify.app/"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/deploy.svg"
+                  src="../images/external-link.svg"
                   alt="deploy"
                   className="h-5 "
                 ></img>
@@ -114,14 +114,14 @@ export default function ProjectsGrid() {
               alt="airbnb"
               className="h-[210px] w-[300px]"
             ></img>
-            <div className="w-[100%] font-bold flex text-sm justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-pink-Plusdark bg-pink-light ">
               Airbnb
               <a
                 href="https://radiant-kataifi-bb334f.netlify.app/"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/deploy.svg"
+                  src="../images/external-link.svg"
                   alt="deploy"
                   className="h-5 "
                 ></img>
