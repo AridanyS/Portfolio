@@ -22,7 +22,7 @@ export default function AvatarPicture() {
   return (
     <>
       <header className="font-bold text-text-modal-light">
-        <h1>Aridany de la Fe Sarmiento</h1>
+        <h2>Aridany de la Fe Sarmiento</h2>
         <nav>
           <ul className="flex">
             <li><a href="#">Home</a></li>

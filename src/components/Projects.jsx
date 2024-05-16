@@ -14,19 +14,23 @@ export default function ProjectsGrid() {
   return (
     <>
       <article
-        className="container w-[80%] h-[42.5%] mx-auto absolute top-[31%] rounded-lg border-8 
+        className="container w-[80%] h-[42.3%] mx-auto absolute top-[31%] rounded-lg border-8 
         border-background-page left-[10%]"
       >
-        
-        <p className="flex items-center content-center pb-2 font-bold bg-background-page text-text-modal-light">
+        <section className="flex items-center content-center justify-between pb-2 font-bold bg-background-page text-text-modal-light">
           Projects
-        </p>
-        
+          <section className="flex gap-2 justify-evenly">
+            <section className="flex w-2 h-2 bg-red-600 rounded-full"></section>
+            <section className="flex w-2 h-2 bg-yellow-300 rounded-full"></section>
+            <section className="flex w-2 h-2 bg-green-500 rounded-full"></section>
+          </section>
+        </section>
+
         <Swiper
           style={{
             "--swiper-pagination-bullet-size": "9px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
-            "--swiper-pagination-bottom": "25px",
+            "--swiper-pagination-bottom": "30px",
             "--swiper-pagination-bullet-inactive-opacity": "1",
             "--swiper-pagination-color": "#b3b2a3",
             "--swiper-pagination-bullet-inactive-color": "#1d1d18",
@@ -38,7 +42,7 @@ export default function ProjectsGrid() {
           coverflowEffect={{
             rotate: 250,
             stretch: 20,
-            depth: 9000,
+            depth: 1000,
             modifier: 1,
             slideShadows: true,
             //scale: 5,
@@ -49,47 +53,74 @@ export default function ProjectsGrid() {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
-          
           <SwiperSlide className="">
-            
             <video
               src="../images/drag_drop.mp4"
-              autoPlay loop muted
+              autoPlay
+              loop
+              muted
               alt="web_drag-drop"
               className="h-[210px] w-[300px] object-cover"
             ></video>
 
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-pink-dark bg-hard-pink ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
               Drag & Drop
               <a
-                href="https://drag-drop-khaki.vercel.app" target="_blank"
+                href="https://drag-drop-khaki.vercel.app"
+                target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
                   src="../images/external-link.svg"
                   alt="deploy"
-                  className="h-5 rounded bg-pink-dark"
+                  className="h-5 rounded bg-text-modal-light"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/AridanyS/Drag-Drop"
+                target="_blank"
+                className="rounded hover:bg-pink-dark "
+              >
+                <img
+                  src="../images/github.svg"
+                  alt="github"
+                  className="h-5 rounded bg-text-modal-light"
                 ></img>
               </a>
             </div>
           </SwiperSlide>
 
           <SwiperSlide className=" border-text-modal">
-            <img
-              src="../images/chiwawa.png"
+            <video
+              src="../images/chiwawa_video.mp4"
+              autoPlay
+              loop
+              muted
               alt="restaurante_chiwawa"
               className="h-[210px] w-[300px] object-cover"
-            ></img>
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-gecko-pink bg-gecko ">
+            ></video>
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
               Taquería Chiwawa
               <a
-                href="https://aridanys.github.io/Proyecto-Sass/" target="_blank"
+                href="https://aridanys.github.io/Proyecto-Sass/"
+                target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
                   src="../images/external-link.svg"
                   alt="deploy"
-                  className="h-5 rounded bg-gecko-pink "
+                  className="h-5 rounded bg-text-modal-light "
+                ></img>
+              </a>
+              <a
+                href="https://github.com/AridanyS/Proyecto-Sass"
+                target="_blank"
+                className="rounded hover:bg-pink-dark "
+              >
+                <img
+                  src="../images/github.svg"
+                  alt="github"
+                  className="h-5 rounded bg-text-modal-light"
                 ></img>
               </a>
             </div>
@@ -101,16 +132,28 @@ export default function ProjectsGrid() {
               alt="rocket"
               className="h-[210px] w-[300px] object-cover"
             ></img>
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-blue-rocket bg-green-rocket ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
               Acme Rockets
               <a
-                href="https://sprightly-kataifi-24204e.netlify.app/" target="_blank"
+                href="https://sprightly-kataifi-24204e.netlify.app/"
+                target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
                   src="../images/external-link.svg"
                   alt="deploy"
-                  className="h-5 rounded bg-blue-rocket"
+                  className="h-5 rounded bg-text-modal-light"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/AridanyS/Tailwind-Rocket"
+                target="_blank"
+                className="rounded hover:bg-pink-dark "
+              >
+                <img
+                  src="../images/github.svg"
+                  alt="github"
+                  className="h-5 rounded bg-text-modal-light"
                 ></img>
               </a>
             </div>
@@ -122,16 +165,28 @@ export default function ProjectsGrid() {
               alt="airbnb"
               className="h-[210px] w-[300px]"
             ></img>
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-page-white bg-pink-airbnb ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
               Airbnb
               <a
-                href="https://radiant-kataifi-bb334f.netlify.app/" target="_blank"
+                href="https://radiant-kataifi-bb334f.netlify.app/"
+                target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
                   src="../images/external-link.svg"
                   alt="deploy"
-                  className="h-5 rounded bg-page-white"
+                  className="h-5 rounded bg-text-modal-light"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/AridanyS/Airbnb-Page"
+                target="_blank"
+                className="rounded hover:bg-pink-dark "
+              >
+                <img
+                  src="../images/github.svg"
+                  alt="github"
+                  className="h-5 rounded bg-text-modal-light"
                 ></img>
               </a>
             </div>
