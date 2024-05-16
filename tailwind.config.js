@@ -33,10 +33,24 @@ module.exports = {
         "text-modal-Plusdarker":"#373730",
         "grey-semidarker": "#AEAD88",
         "background-DarkBrown": "#1C1C17",
+        "background-page":"#2e2e28",
 
         "pink-dark":"#c3719e",
         "pink-Plusdark":"#68334b",
         "pink-light":"#e5bcd4",
+
+        "gecko": "#02a4a2",
+        "gecko-pink":"#e5a6af",
+
+        "hard-pink":"#6d304d",
+        "not-hard-pink":"#8f3f65",
+
+        "green-rocket":"#0f766e",
+        "blue-rocket":"#9ba6e7",
+
+        "pink-airbnb":"#fe5b5f",
+
+
 
       },
     },
