@@ -18,7 +18,8 @@ module.exports = {
         Montserrat: ["Montserrat", "sans-serif"],
         Caslon: ["Libre Caslon", "Text", "serif"],
         Titillium: ["Titillium Web", "sans-serif"],
-        "work-sans": ["Work Sans", "sans-serif"],
+        workSans: ["Work Sans", "sans-serif"],
+        RobotoMono: ["Roboto Mono", "monospace"],
       },
       colors: {
         "page-black": "#101010",
