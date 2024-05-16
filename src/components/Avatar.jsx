@@ -21,7 +21,7 @@ export default function AvatarPicture() {
 
   return (
     <>
-      <header>
+      <header className="font-bold text-text-modal-light">
         <h1>Aridany de la Fe Sarmiento</h1>
         <nav>
           <ul className="flex">
@@ -37,7 +37,7 @@ export default function AvatarPicture() {
         </div>
       </header>
       <div
-        className="border border-slate-500"
+        className="font-bold text-text-modal-light"
         onClick={handleOpen}
         style={{ cursor: "pointer" }}
       >

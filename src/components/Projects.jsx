@@ -14,11 +14,13 @@ export default function ProjectsGrid() {
   return (
     <>
       <article
-        className="container w-[80%] h-[43.5%] mx-auto absolute top-[31%] rounded-lg border-8 border-background-page
-      left-[10%]"
+        className="container w-[80%] h-[42.5%] mx-auto absolute top-[31%] rounded-lg border-8 
+        border-background-page left-[10%]"
       >
         
-        <p className="flex items-center content-center py-2 font-bold bg-background-page text-text-modal-light">Projects</p>
+        <p className="flex items-center content-center pb-2 font-bold bg-background-page text-text-modal-light">
+          Projects
+        </p>
         
         <Swiper
           style={{
@@ -50,16 +52,17 @@ export default function ProjectsGrid() {
           
           <SwiperSlide className="">
             
-            <img
-              src="../images/drag-drop.png"
+            <video
+              src="../images/drag_drop.mp4"
+              autoPlay loop muted
               alt="web_drag-drop"
               className="h-[210px] w-[300px] object-cover"
-            ></img>
+            ></video>
 
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-pink-dark bg-hard-pink ">
               Drag & Drop
               <a
-                href="https://drag-drop-khaki.vercel.app"
+                href="https://drag-drop-khaki.vercel.app" target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
@@ -80,7 +83,7 @@ export default function ProjectsGrid() {
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-gecko-pink bg-gecko ">
               Taquería Chiwawa
               <a
-                href="https://aridanys.github.io/Proyecto-Sass/"
+                href="https://aridanys.github.io/Proyecto-Sass/" target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
@@ -101,7 +104,7 @@ export default function ProjectsGrid() {
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-blue-rocket bg-green-rocket ">
               Acme Rockets
               <a
-                href="https://sprightly-kataifi-24204e.netlify.app/"
+                href="https://sprightly-kataifi-24204e.netlify.app/" target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
@@ -122,7 +125,7 @@ export default function ProjectsGrid() {
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] text-page-white bg-pink-airbnb ">
               Airbnb
               <a
-                href="https://radiant-kataifi-bb334f.netlify.app/"
+                href="https://radiant-kataifi-bb334f.netlify.app/" target="_blank"
                 className="rounded hover:bg-pink-dark "
               >
                 <img
