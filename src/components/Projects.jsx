@@ -14,9 +14,12 @@ export default function ProjectsGrid() {
   return (
     <>
       <article
-        className="container w-[80%] h-[37.4%] mx-auto absolute top-[20%] rounded-lg border-8 border-background-page
+        className="container w-[80%] h-[43.5%] mx-auto absolute top-[31%] rounded-lg border-8 border-background-page
       left-[10%]"
       >
+        
+        <p className="flex items-center content-center py-2 font-bold bg-background-page text-text-modal-light">Projects</p>
+        
         <Swiper
           style={{
             "--swiper-pagination-bullet-size": "9px",
