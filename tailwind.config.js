@@ -13,6 +13,9 @@ module.exports = {
 
   theme: {
     extend: {
+      backgroundImage: {
+        'fondo': 'linear-gradient(to right, #3f3f35, #48483d, #525244, #5c5c4c, #666654)',
+      },
       fontFamily: {
         Cormorant: ["Cormorant Garamond", "serif"],
         Roboto: ["Roboto", "sans-serif"],
