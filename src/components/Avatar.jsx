@@ -22,16 +22,28 @@ export default function AvatarPicture() {
   return (
     <>
       <header className="font-bold text-text-modal-light">
-        <h2>Aridany de la Fe Sarmiento</h2>
+
+        <h1 className="flex justify-center text-xl">
+          Aridany de la Fe Sarmiento
+        </h1>
+
         <nav>
           <ul className="flex">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Technologies</a></li>
-
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About me</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#">Technologies</a>
+            </li>
           </ul>
         </nav>
+        
         <div className="flex items-center justify-center ">
           <Avatar src="./images/foto.jfif" className="w-24 h-24" />
         </div>
