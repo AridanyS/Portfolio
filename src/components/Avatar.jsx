@@ -21,28 +21,33 @@ export default function AvatarPicture() {
 
   return (
     <>
-      <header className="font-bold mt-[19%] flex flex-col gap-4 items-center text-text-modal-light">
+      <header className="font-bold mt-[25%] flex flex-col gap-6 items-center text-text-modal-light">
 
         <h1 id="" className="flex justify-center text-xl">
           Aridany de la Fe Sarmiento
         </h1>
 
         <div className="flex items-center justify-center ">
-          <Avatar src="./images/foto.jfif" className="w-24 h-24" />
+          <Avatar src="./images/foto.jfif" className="w-40 h-40" />
         </div>
-      
-      <div id="AboutMe"
-        className="font-bold text-text-modal-light"
-        onClick={handleOpen}
-        style={{ cursor: "pointer" }}
-      >
-        About me
-      </div>
+        
+        <p className="text-lg">
+          Frontend Developer
+        </p>
+
+        <div
+          id="AboutMe"
+          className="font-bold text-text-modal-light"
+          onClick={handleOpen}
+          style={{ cursor: "pointer" }}
+        >
+          About me
+        </div>
       </header>
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
         <ModalContent className="rounded-lg bg-background-Modal opacity-95 text-text-modal">
           {
-            //Button) => (
+            
             <>
               <ModalHeader className="flex flex-col gap-1 pt-3 pb-2 font-bold ">
                 About me

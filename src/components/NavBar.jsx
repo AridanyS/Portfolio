@@ -5,6 +5,7 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
+  NavbarBrand,
   Link,
 } from "@nextui-org/react";
 
@@ -31,6 +32,14 @@ export default function NavBar() {
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             className="h-full sm:hidden"
           />
+        </NavbarContent>
+
+        <NavbarContent className="mr-[33%]">
+          <NavbarBrand className="">
+            <p className="text-xl font-bold text-text-modal-light">
+              Portfolio
+            </p>
+          </NavbarBrand>
         </NavbarContent>
 
         <NavbarMenu className="opacity-95 bg-fondo">
