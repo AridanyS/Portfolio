@@ -23,7 +23,7 @@ export default function AvatarPicture() {
     <>
       <header className="font-bold text-text-modal-light">
 
-        <h1 className="flex justify-center text-xl">
+        <h1 id="" className="flex justify-center text-xl">
           Aridany de la Fe Sarmiento
         </h1>
 
@@ -48,7 +48,7 @@ export default function AvatarPicture() {
           <Avatar src="./images/foto.jfif" className="w-24 h-24" />
         </div>
       </header>
-      <div
+      <div id="AboutMe"
         className="font-bold text-text-modal-light"
         onClick={handleOpen}
         style={{ cursor: "pointer" }}

@@ -13,7 +13,7 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 export default function ProjectsGrid() {
   return (
     <>
-      <article
+      <article id="Projects"
         className="container w-[80%] h-[42.3%] mx-auto absolute top-[31%] rounded-lg border-8 
         border-background-page left-[10%]"
       >
