@@ -22,18 +22,21 @@ export default function NavBar() {
 
   return (
     <>
-      <Navbar className="fixed" onMenuOpenChange={setIsMenuOpen}>
+      <Navbar className="fixed bg-text-modal " onMenuOpenChange={setIsMenuOpen}
+        isBlurred="false"
+      >
         <NavbarContent>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="sm:hidden"
+            className=""
           />
         </NavbarContent>
 
-        <NavbarMenu>
+        <NavbarMenu className=" bg-text-modal"
+        >
           {menuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item.name}-${index}`}>
-              <Link className="w-full" href={item.href} size="lg">
+            <NavbarMenuItem className="font-bold text-not-hard-pink" key={`${item.name}-${index}`}>
+              <Link className="w-full" href={item.href} >
                 {item.name}
               </Link>
             </NavbarMenuItem>

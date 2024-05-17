@@ -5,9 +5,10 @@ module.exports = {
     "./index.html",
     "./src/components/Avatar.jsx",
     "./src/components/Projects.jsx",
+    "./src/components/NavBar.jsx",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{html,js,react}",
-        './node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|coverflow|navbar).js'
+        './node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|coverflow|navbar|link).js'
   ],
 
   theme: {
