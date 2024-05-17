@@ -28,15 +28,15 @@ export default function NavBar() {
         <NavbarContent>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className=""
+            className="h-full sm:hidden"
           />
         </NavbarContent>
 
-        <NavbarMenu className=" bg-text-modal"
+        <NavbarMenu className="opacity-95 bg-text-modal"
         >
           {menuItems.map((item, index) => (
-            <NavbarMenuItem className="font-bold text-not-hard-pink" key={`${item.name}-${index}`}>
-              <Link className="w-full" href={item.href} >
+            <NavbarMenuItem className="w-5/12 font-bold rounded text-background-page hover:bg-grey-semidarker" key={`${item.name}-${index}`}>
+              <Link className="" href={item.href} >
                 {item.name}
               </Link>
             </NavbarMenuItem>
