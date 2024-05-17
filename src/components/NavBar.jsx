@@ -6,7 +6,6 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Link,
-
 } from "@nextui-org/react";
 
 export default function NavBar() {
@@ -22,7 +21,9 @@ export default function NavBar() {
 
   return (
     <>
-      <Navbar className="fixed bg-text-modal " onMenuOpenChange={setIsMenuOpen}
+      <Navbar
+        className="fixed bg-fondo "
+        onMenuOpenChange={setIsMenuOpen}
         isBlurred="false"
       >
         <NavbarContent>
@@ -32,11 +33,13 @@ export default function NavBar() {
           />
         </NavbarContent>
 
-        <NavbarMenu className="opacity-95 bg-text-modal"
-        >
+        <NavbarMenu className="opacity-95 bg-fondo">
           {menuItems.map((item, index) => (
-            <NavbarMenuItem className="w-5/12 font-bold rounded text-background-page hover:bg-grey-semidarker" key={`${item.name}-${index}`}>
-              <Link className="" href={item.href} >
+            <NavbarMenuItem
+              className="w-auto font-bold rounded text-background-DarkBrown "
+              key={`${item.name}-${index}`}
+            >
+              <Link className="" href={item.href} underline="hover">
                 {item.name}
               </Link>
             </NavbarMenuItem>
