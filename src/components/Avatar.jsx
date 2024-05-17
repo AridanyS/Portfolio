@@ -21,33 +21,16 @@ export default function AvatarPicture() {
 
   return (
     <>
-      <header className="font-bold text-text-modal-light">
+      <header className="font-bold mt-[19%] flex flex-col gap-4 items-center text-text-modal-light">
 
         <h1 id="" className="flex justify-center text-xl">
           Aridany de la Fe Sarmiento
         </h1>
 
-        <nav>
-          <ul className="flex">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About me</a>
-            </li>
-            <li>
-              <a href="#">Projects</a>
-            </li>
-            <li>
-              <a href="#">Technologies</a>
-            </li>
-          </ul>
-        </nav>
-        
         <div className="flex items-center justify-center ">
           <Avatar src="./images/foto.jfif" className="w-24 h-24" />
         </div>
-      </header>
+      
       <div id="AboutMe"
         className="font-bold text-text-modal-light"
         onClick={handleOpen}
@@ -55,6 +38,7 @@ export default function AvatarPicture() {
       >
         About me
       </div>
+      </header>
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
         <ModalContent className="rounded-lg bg-background-Modal opacity-95 text-text-modal">
           {
