@@ -9,13 +9,13 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
 //import { EffectCreative } from "swiper/modules";
-
+//absolute top-[100%] left-[10%] Dentro de article id="Projects" y 
 export default function ProjectsGrid() {
   return (
     <>
       <article id="Projects"
-        className="container w-[80%] h-[auto] mx-auto absolute top-[100%] rounded-lg border-8 
-        border-background-page left-[10%]"
+        className="container w-[80%] h-[auto] mx-auto relative top-[100%] rounded-lg border-8 
+        border-background-page "
       >
         <section className="flex items-center content-center justify-between pb-2 font-bold bg-background-page text-text-modal-light">
           Projects

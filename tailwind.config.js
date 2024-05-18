@@ -8,7 +8,7 @@ module.exports = {
     "./src/components/NavBar.jsx",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{html,js,react}",
-    "./node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|coverflow|navbar|link).js",
+    "./node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|coverflow|navbar|link|accordion).js",
   ],
 
   theme: {
