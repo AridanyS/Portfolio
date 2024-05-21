@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { Avatar } from "@nextui-org/avatar";
-import { Toaster } from 'sonner';
 import {
   Modal,
   ModalContent,
@@ -30,9 +29,7 @@ export default function AvatarPicture() {
       setTimeout(() => {
         setCopied(false);
       }, 1000);
-    }).catch(err => {
-      console.error('Error al copiar al portapapeles: ', err);
-    });
+    })
   };
 
   return (
@@ -94,7 +91,7 @@ export default function AvatarPicture() {
             <img src="./images/mail.svg"
             className="mx-4 rounded-lg bg-text-modal-light"></img>
           </button>
-          {copied && <p className="absolute bottom-[20vw] text-text-modal-light ">Correo copiado al portapapeles!</p>}
+          {copied && <p className="fixed bottom-0 right-0 z-10 p-1 px-1 text-sm rounded-lg text-text-modal-light bg-background-page opacity-90">Mail copied to clipboard!</p>}
           
           </div>
           
