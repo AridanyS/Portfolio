@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Avatar } from "@nextui-org/avatar";
+import { Toaster } from 'sonner';
 import {
   Modal,
   ModalContent,
@@ -36,6 +37,7 @@ export default function AvatarPicture() {
 
   return (
     <>
+   
       <header className="font-bold mt-[35%] flex flex-col gap-12 items-center text-text-modal-light">
         <h1 id="" className="flex justify-center text-xl">
           Aridany de la Fe Sarmiento
@@ -81,7 +83,7 @@ export default function AvatarPicture() {
             <img src="./images/github.svg"
             className="mx-4 rounded-lg bg-text-modal-light "></img>
           </a>
-
+          
           <button 
             id="copyButton"
 
@@ -92,8 +94,10 @@ export default function AvatarPicture() {
             <img src="./images/mail.svg"
             className="mx-4 rounded-lg bg-text-modal-light"></img>
           </button>
-          {copied && <p className="absolute bottom-[20vw] text-green-500 ">Correo copiado al portapapeles!</p>}
+          {copied && <p className="absolute bottom-[20vw] text-text-modal-light ">Correo copiado al portapapeles!</p>}
+          
           </div>
+          
         </div>
 
       </header>
