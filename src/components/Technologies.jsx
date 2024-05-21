@@ -4,15 +4,24 @@ import React from "react";
 
 export default function Technologies() {
   return (
+    <>
+    <div className="relative left-[10%] w-[80%] top-[500px]
+    font-bold text-text-modal-light rounded-lg
+    bg-background-page border-8 border-background-page">
+      Technologies
+      
     <article
       id="Technologies"
-      className=" w-[90%] p-4 mx-auto h-[auto] gap-4 grid items-center grid-cols-3 grid-rows-3 font-bold text-text-modal-light justify-items-center "
+      className=" w-[80%] mx-auto my-4 h-[auto] 
+      gap-6 grid items-center grid-cols-3 grid-rows-3 
+      font-bold text-text-modal-light justify-items-center
+      rounded-lg text-sm "
     >
       <section id="" className="flex flex-col items-center">
         <img
           src="../images/html5.svg"
           alt="html"
-          className="w-10 h-10 "
+          className="w-12 h-12 "
         ></img>
         <p className="">HTML</p>
       </section>
@@ -20,7 +29,7 @@ export default function Technologies() {
       <section id="" className="flex flex-col items-center">
         <img src="../images/css.svg" 
         alt="css" 
-        className="w-10 h-10 "></img>
+        className="w-12 h-12 "></img>
         <p className="">CSS</p>
       </section>
 
@@ -28,7 +37,7 @@ export default function Technologies() {
         <img
           src="../images/javascript.svg"
           alt="javascript"
-          className="w-10 h-10 "
+          className="w-12 h-12 "
         ></img>
         <p className="">JavaScript</p>
       </section>
@@ -37,7 +46,7 @@ export default function Technologies() {
         <img
           src="../images/react.svg"
           alt="react"
-          className="w-10 h-10 "
+          className="w-12 h-12 "
         ></img>
         <p className="">React</p>
       </section>
@@ -45,7 +54,7 @@ export default function Technologies() {
         <img
           src="../images/tailwindcss.svg"
           alt="tailwindcss"
-          className="w-10 h-10 "
+          className="w-12 h-12 "
         ></img>
         <p className="">TailwindCSS</p>
       </section>
@@ -53,7 +62,7 @@ export default function Technologies() {
       <section id="" className="flex flex-col items-center">
         <img src="../images/sass.svg" 
         alt="sass" 
-        className="w-10 h-10 ">
+        className="w-12 h-12 ">
         </img>
         <p className="">Sass</p>
       </section>
@@ -62,7 +71,7 @@ export default function Technologies() {
         <img
           src="../images/vitejs.svg"
           alt="vite"
-          className="w-10 h-10 "
+          className="w-12 h-12 "
         ></img>
         <p className="">Vite</p>
       </section>
@@ -71,7 +80,7 @@ export default function Technologies() {
         <img
           src="../images/nodejs.svg"
           alt="sass"
-          className="w-10 h-10 "
+          className="w-12 h-12 "
         ></img>
         <p className="">Node.js</p>
       </section>
@@ -80,11 +89,14 @@ export default function Technologies() {
         <img
           src="../images/terminal.svg"
           alt="terminal"
-          className="w-10 h-10 "
+          className="w-12 h-12 "
         ></img>
         <p className="">Terminal</p>
       </section>
     </article>
+    </div>
+    
+    </>
   );
 }
 
