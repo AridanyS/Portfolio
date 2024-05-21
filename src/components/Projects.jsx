@@ -14,7 +14,7 @@ export default function ProjectsGrid() {
   return (
     <>
       <article id="Projects"
-        className="container w-[80%] h-[auto] mx-auto relative top-[100%] rounded-lg border-8 
+        className="w-[80%] h-[auto] mx-auto rounded-lg border-8 
         border-background-page "
       >
         <section className="flex items-center content-center justify-between pb-2 font-bold bg-background-page text-text-modal-light">
