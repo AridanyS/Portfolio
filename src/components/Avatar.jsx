@@ -28,7 +28,7 @@ export default function AvatarPicture() {
       setCopied(true);
       setTimeout(() => {
         setCopied(false);
-      }, 1000);
+      }, 1500);
     })
   };
 
@@ -49,7 +49,7 @@ export default function AvatarPicture() {
         </p>
 
         <div
-          className="font-bold text-text-modal-light"
+          className="p-1 font-bold border rounded-lg text-text-modal-light ransform"
           onClick={handleOpen}
           style={{ cursor: "pointer" }}
         >

@@ -5,7 +5,7 @@ import React from "react";
 export default function Technologies() {
   return (
     <>
-    <div className="relative left-[10%] w-[80%] top-[300px]
+    <div className="relative left-[10%] w-[80%] top-[350px]
     font-bold text-text-modal-light rounded-lg
     bg-background-page border-8 border-background-page">
       Technologies
