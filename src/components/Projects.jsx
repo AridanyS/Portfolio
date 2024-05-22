@@ -47,8 +47,8 @@ export default function ProjectsGrid() {
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 350,
-            stretch: 1,
-            depth: 1000,
+            stretch: 0,
+            depth: 500,
             modifier: 1,
             slideShadows: true,
             //scale: 5,
@@ -63,13 +63,13 @@ export default function ProjectsGrid() {
             <video
               src="../images/drag_drop.mp4"
               autoPlay
-              //loop
-              //muted
+              loop
+              muted
               alt="web_drag-drop"
               className="object-cover w-full h-full"
             ></video>
 
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] justify-items-center bg-background-page text-text-modal-light ">
               Drag & Drop
               <a
                 href="https://drag-drop-khaki.vercel.app"
@@ -100,8 +100,8 @@ export default function ProjectsGrid() {
             <video
               src="../images/chiwawa_video.mp4"
               autoPlay
-              //loop
-              //muted
+              loop
+              muted
               alt="restaurante_chiwawa"
               className="object-cover w-full h-full"
             ></video>
