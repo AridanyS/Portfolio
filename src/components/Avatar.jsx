@@ -23,18 +23,17 @@ export default function AvatarPicture() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const email = 'aridany6@gmail.com';
+    const email = "aridany6@gmail.com";
     navigator.clipboard.writeText(email).then(() => {
       setCopied(true);
       setTimeout(() => {
         setCopied(false);
       }, 1500);
-    })
+    });
   };
 
   return (
     <>
-   
       <header className="font-bold mt-[35%] flex flex-col gap-12 items-center text-text-modal-light">
         <h1 id="" className="flex justify-center text-xl">
           Aridany de la Fe Sarmiento
@@ -48,13 +47,13 @@ export default function AvatarPicture() {
           Frontend Developer
         </p>
 
-        <div
-          className="p-1 font-bold border rounded-lg text-text-modal-light ransform"
+        <button
+          className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
           onClick={handleOpen}
           style={{ cursor: "pointer" }}
         >
           About me
-        </div>
+        </button>
 
         <div
           id="Contact"
@@ -63,41 +62,39 @@ export default function AvatarPicture() {
         >
           Contact
           <div className="flex">
-          <a
-            href="https://www.linkedin.com/in/aridany-de-la-fe-sarmiento-707438272/"
-            target="_blank"
-            className=""
-          >
-            <img src="./images/linkedin.svg"
-            className="mx-4 rounded-lg bg-text-modal-light"></img>
-          </a>
+            <a
+              href="https://www.linkedin.com/in/aridany-de-la-fe-sarmiento-707438272/"
+              target="_blank"
+              className=""
+            >
+              <img
+                src="./images/linkedin.svg"
+                className="mx-4 rounded-lg bg-text-modal-light"
+              ></img>
+            </a>
 
-          <a
-            href="https://github.com/AridanyS"
-            target="_blank"
-          >
-            
-            <img src="./images/github.svg"
-            className="mx-4 rounded-lg bg-text-modal-light "></img>
-          </a>
-          
-          <button 
-            id="copyButton"
+            <a href="https://github.com/AridanyS" target="_blank">
+              <img
+                src="./images/github.svg"
+                className="mx-4 rounded-lg bg-text-modal-light "
+              ></img>
+            </a>
 
-            onClick={handleCopy} 
-            target="_blank"
-          >
-            
-            <img src="./images/mail.svg"
-            className="mx-4 rounded-lg bg-text-modal-light"></img>
-          </button>
-          {copied && <p className="fixed bottom-0 right-0 z-10 p-1 px-1 text-sm rounded-lg text-text-modal-light bg-background-page opacity-90">Mail copied to clipboard!</p>}
-          
+            <button id="copyButton" onClick={handleCopy} target="_blank">
+              <img
+                src="./images/mail.svg"
+                className="mx-4 rounded-lg bg-text-modal-light"
+              ></img>
+            </button>
+            {copied && (
+              <p className="fixed bottom-0 right-0 z-10 p-1 px-1 text-sm rounded-lg text-text-modal-light bg-background-page opacity-90">
+                Mail copied to clipboard!
+              </p>
+            )}
           </div>
-          
         </div>
-
       </header>
+      
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
         <ModalContent className="rounded-lg bg-background-Modal opacity-95 text-text-modal">
           {
