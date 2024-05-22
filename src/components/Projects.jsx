@@ -17,7 +17,7 @@ export default function ProjectsGrid() {
 
       <article
         id=""
-        className="w-[80%] relative mx-auto rounded-lg border-8 
+        className="w-[80%] relative my-auto mx-auto rounded-lg border-8 
         top-[160px]
         border-background-page "
       >
@@ -31,6 +31,8 @@ export default function ProjectsGrid() {
         </section>
 
         <Swiper
+        
+        autoHeight="false"
           style={{
             "--swiper-pagination-bullet-size": "9px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
@@ -44,8 +46,8 @@ export default function ProjectsGrid() {
           centeredSlides={true}
           slidesPerView={"auto"}
           coverflowEffect={{
-            rotate: 250,
-            stretch: 20,
+            rotate: 350,
+            stretch: 1,
             depth: 1000,
             modifier: 1,
             slideShadows: true,
@@ -61,18 +63,18 @@ export default function ProjectsGrid() {
             <video
               src="../images/drag_drop.mp4"
               autoPlay
-              loop
-              muted
+              //loop
+              //muted
               alt="web_drag-drop"
-              className="h-[210px] w-[300px] object-cover"
+              className="object-cover w-full h-full"
             ></video>
 
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Drag & Drop
               <a
                 href="https://drag-drop-khaki.vercel.app"
                 target="_blank"
-                className="rounded hover:bg-pink-dark "
+                className="rounded "
               >
                 <img
                   src="../images/external-link.svg"
@@ -83,7 +85,7 @@ export default function ProjectsGrid() {
               <a
                 href="https://github.com/AridanyS/Drag-Drop"
                 target="_blank"
-                className="rounded hover:bg-pink-dark "
+                className="rounded "
               >
                 <img
                   src="../images/github.svg"
@@ -94,16 +96,16 @@ export default function ProjectsGrid() {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className=" border-text-modal">
+          <SwiperSlide className="">
             <video
               src="../images/chiwawa_video.mp4"
               autoPlay
-              loop
-              muted
+              //loop
+              //muted
               alt="restaurante_chiwawa"
-              className="h-[210px] w-[300px] object-cover"
+              className="object-cover w-full h-full"
             ></video>
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Taquería Chiwawa
               <a
                 href="https://aridanys.github.io/Proyecto-Sass/"
@@ -134,9 +136,9 @@ export default function ProjectsGrid() {
             <img
               src="../images/rocket.png"
               alt="rocket"
-              className="h-[210px] w-[300px] object-cover"
+              className="object-cover w-full h-full"
             ></img>
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Acme Rockets
               <a
                 href="https://sprightly-kataifi-24204e.netlify.app/"
@@ -167,9 +169,9 @@ export default function ProjectsGrid() {
             <img
               src="../images/airbnb.png"
               alt="airbnb"
-              className="h-[210px] w-[300px]"
+              className="object-cover w-full h-full"
             ></img>
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page pt-1 text-text-modal-light ">
+            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Airbnb
               <a
                 href="https://radiant-kataifi-bb334f.netlify.app/"

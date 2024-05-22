@@ -25,7 +25,7 @@ export default function Technologies() {
       font-bold text-text-modal-light justify-items-center
       rounded-lg text-sm "
         >
-          <section id="" className="flex flex-col items-center justify-center px-4 py-3 animate-shine rounded-xl hover:bg-text-modal-darker">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/html5.svg"
               alt="html"
@@ -34,12 +34,12 @@ export default function Technologies() {
             <p className="">HTML</p>
           </section>
 
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img src="../images/css.svg" alt="css" className="w-12 h-12 "></img>
             <p className="">CSS</p>
           </section>
 
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/javascript.svg"
               alt="javascript"
@@ -48,7 +48,7 @@ export default function Technologies() {
             <p className="">JavaScript</p>
           </section>
 
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/react.svg"
               alt="react"
@@ -56,7 +56,7 @@ export default function Technologies() {
             ></img>
             <p className="">React</p>
           </section>
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/tailwindcss.svg"
               alt="tailwindcss"
@@ -65,7 +65,7 @@ export default function Technologies() {
             <p className="">TailwindCSS</p>
           </section>
 
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/sass.svg"
               alt="sass"
@@ -74,7 +74,7 @@ export default function Technologies() {
             <p className="">Sass</p>
           </section>
 
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/vitejs.svg"
               alt="vite"
@@ -83,7 +83,7 @@ export default function Technologies() {
             <p className="">Vite</p>
           </section>
 
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/nodejs.svg"
               alt="sass"
@@ -92,7 +92,7 @@ export default function Technologies() {
             <p className="">Node.js</p>
           </section>
 
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/terminal.svg"
               alt="terminal"
