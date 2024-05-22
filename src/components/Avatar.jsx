@@ -69,21 +69,21 @@ export default function AvatarPicture() {
             >
               <img
                 src="./images/linkedin.svg"
-                className="mx-4 rounded-lg bg-text-modal-light"
+                className="mx-4 border rounded-lg bg-text-modal-light hover:shadow-xl hover:opacity-70"
               ></img>
             </a>
 
             <a href="https://github.com/AridanyS" target="_blank">
               <img
                 src="./images/github.svg"
-                className="mx-4 rounded-lg bg-text-modal-light "
+                className="mx-4 border rounded-lg bg-text-modal-light hover:shadow-xl hover:opacity-70 "
               ></img>
             </a>
 
             <button id="copyButton" onClick={handleCopy} target="_blank">
               <img
                 src="./images/mail.svg"
-                className="mx-4 rounded-lg bg-text-modal-light"
+                className="mx-4 border rounded-lg bg-text-modal-light hover:shadow-xl hover:opacity-70"
               ></img>
             </button>
             {copied && (
