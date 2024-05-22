@@ -50,7 +50,7 @@ export default function Technologies() {
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/react.svg"
+              src="../images\react.svg"
               alt="react"
               className="w-12 h-12 "
             ></img>
