@@ -48,7 +48,7 @@ export default function AvatarPicture() {
         </p>
 
         <button
-          className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
+          className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg hover:animate-text-shake text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
           onClick={handleOpen}
           style={{ cursor: "pointer" }}
         >

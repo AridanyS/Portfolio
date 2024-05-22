@@ -14,6 +14,30 @@ module.exports = {
 
   theme: {
     extend: {
+      
+        "animation": {
+          "text-shake": "text-shake 1s ease 1"
+        },
+        "keyframes": {
+          "text-shake": {
+            "15%": {
+              "transform": "translateX(5px)"
+            },
+            "30%": {
+              "transform": "translateX(-5px)"
+            },
+            "50%": {
+              "transform": "translateX(3px)"
+            },
+            "80%": {
+              "transform": "translateX(2px)"
+            },
+            "100%": {
+              "transform": "translateX(0)"
+            }
+          }
+        }
+    },
       backgroundImage: {
         fondo:
           "linear-gradient(to left, #3f3f35, #48483d, #525244, #5c5c4c, #666654)",
@@ -59,6 +83,5 @@ module.exports = {
         "pink-airbnb": "#fe5b5f",
       },
     },
-  },
-  plugins: [],
-};
+  }
+
