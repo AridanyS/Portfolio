@@ -25,7 +25,7 @@ export default function Technologies() {
       font-bold text-text-modal-light justify-items-center
       rounded-lg text-sm "
         >
-          <section id="" className="flex flex-col items-center">
+          <section id="" className="flex flex-col items-center justify-center px-4 py-3 animate-shine rounded-xl hover:bg-text-modal-darker">
             <img
               src="../images/html5.svg"
               alt="html"
