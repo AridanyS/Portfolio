@@ -24,9 +24,9 @@ export default function ProjectsGrid() {
         <section className="flex items-center content-center justify-between pb-2 font-bold bg-background-page text-text-modal-light">
           Projects
           <section className="flex gap-2 justify-evenly">
-            <section className="flex w-2 h-2 bg-red-600 rounded-full"></section>
-            <section className="flex w-2 h-2 bg-yellow-300 rounded-full"></section>
-            <section className="flex w-2 h-2 bg-green-500 rounded-full"></section>
+            <section className="w-2 h-2 bg-red-600 rounded-full "></section>
+            <section className="w-2 h-2 bg-yellow-400 rounded-full "></section>
+            <section className="w-2 h-2 bg-green-400 rounded-full "></section>
           </section>
         </section>
 

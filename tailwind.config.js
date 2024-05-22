@@ -33,7 +33,7 @@ module.exports = {
         borderProject: "#FE9835",
 
         "background-Modal": "#0d0d0d",
-        between: "#525244",
+        "between": "#525244",
         "between-light": "#575748",
         "text-modal": "#666654",
         "text-modal-light": "#b3b2a3",

@@ -5,97 +5,103 @@ import React from "react";
 export default function Technologies() {
   return (
     <>
-    <div className="relative left-[10%] w-[80%] top-[350px]
+      <div
+        className="relative left-[10%] w-[80%] top-[350px]
     font-bold text-text-modal-light rounded-lg
-    bg-background-page border-8 border-background-page">
-      Technologies
-      
-    <article
-      id="Technologies"
-      className=" w-[80%] mx-auto my-4 h-[auto] 
+    bg-background-page border-8 border-background-page"
+      >
+        <p className="flex items-center content-center justify-between p-1 rounded-sm border-background-DarkBrown">
+          Technologies
+          <section className="flex gap-2 justify-evenly">
+            <section className="w-2 h-2 bg-red-600 rounded-full "></section>
+            <section className="w-2 h-2 bg-yellow-400 rounded-full "></section>
+            <section className="w-2 h-2 bg-green-400 rounded-full "></section>
+          </section>
+        </p>
+        <article
+          id="Technologies"
+          className=" w-[80%] mx-auto my-4 h-[auto] 
       gap-6 grid items-center grid-cols-3 grid-rows-3 
       font-bold text-text-modal-light justify-items-center
       rounded-lg text-sm "
-    >
-      <section id="" className="flex flex-col items-center">
-        <img
-          src="../images/html5.svg"
-          alt="html"
-          className="w-12 h-12 "
-        ></img>
-        <p className="">HTML</p>
-      </section>
+        >
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/html5.svg"
+              alt="html"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">HTML</p>
+          </section>
 
-      <section id="" className="flex flex-col items-center">
-        <img src="../images/css.svg" 
-        alt="css" 
-        className="w-12 h-12 "></img>
-        <p className="">CSS</p>
-      </section>
+          <section id="" className="flex flex-col items-center">
+            <img src="../images/css.svg" alt="css" className="w-12 h-12 "></img>
+            <p className="">CSS</p>
+          </section>
 
-      <section id="" className="flex flex-col items-center">
-        <img
-          src="../images/javascript.svg"
-          alt="javascript"
-          className="w-12 h-12 "
-        ></img>
-        <p className="">JavaScript</p>
-      </section>
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/javascript.svg"
+              alt="javascript"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">JavaScript</p>
+          </section>
 
-      <section id="" className="flex flex-col items-center">
-        <img
-          src="../images/react.svg"
-          alt="react"
-          className="w-12 h-12 "
-        ></img>
-        <p className="">React</p>
-      </section>
-      <section id="" className="flex flex-col items-center">
-        <img
-          src="../images/tailwindcss.svg"
-          alt="tailwindcss"
-          className="w-12 h-12 "
-        ></img>
-        <p className="">TailwindCSS</p>
-      </section>
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/react.svg"
+              alt="react"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">React</p>
+          </section>
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/tailwindcss.svg"
+              alt="tailwindcss"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">TailwindCSS</p>
+          </section>
 
-      <section id="" className="flex flex-col items-center">
-        <img src="../images/sass.svg" 
-        alt="sass" 
-        className="w-12 h-12 ">
-        </img>
-        <p className="">Sass</p>
-      </section>
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/sass.svg"
+              alt="sass"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">Sass</p>
+          </section>
 
-      <section id="" className="flex flex-col items-center">
-        <img
-          src="../images/vitejs.svg"
-          alt="vite"
-          className="w-12 h-12 "
-        ></img>
-        <p className="">Vite</p>
-      </section>
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/vitejs.svg"
+              alt="vite"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">Vite</p>
+          </section>
 
-      <section id="" className="flex flex-col items-center">
-        <img
-          src="../images/nodejs.svg"
-          alt="sass"
-          className="w-12 h-12 "
-        ></img>
-        <p className="">Node.js</p>
-      </section>
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/nodejs.svg"
+              alt="sass"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">Node.js</p>
+          </section>
 
-      <section id="" className="flex flex-col items-center">
-        <img
-          src="../images/terminal.svg"
-          alt="terminal"
-          className="w-12 h-12 "
-        ></img>
-        <p className="">Terminal</p>
-      </section>
-    </article>
-    </div>
-    
+          <section id="" className="flex flex-col items-center">
+            <img
+              src="../images/terminal.svg"
+              alt="terminal"
+              className="w-12 h-12 "
+            ></img>
+            <p className="">Terminal</p>
+          </section>
+        </article>
+      </div>
     </>
   );
 }
