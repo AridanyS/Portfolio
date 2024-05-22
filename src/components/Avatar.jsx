@@ -48,6 +48,7 @@ export default function AvatarPicture() {
         </p>
 
         <button
+          id="Contact"
           className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg hover:animate-text-shake text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
           onClick={handleOpen}
           style={{ cursor: "pointer" }}
@@ -56,7 +57,6 @@ export default function AvatarPicture() {
         </button>
 
         <div
-          id="Contact"
           className="flex flex-col items-center gap-4 font-bold "
           style={{ cursor: "pointer" }}
         >
@@ -97,7 +97,7 @@ export default function AvatarPicture() {
           </div>
         </div>
       </header>
-      
+
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
         <ModalContent className="rounded-lg bg-background-Modal opacity-95 text-text-modal">
           {
