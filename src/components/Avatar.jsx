@@ -69,6 +69,7 @@ export default function AvatarPicture() {
             >
               <img
                 src="/linkedin.svg"
+                alt="linkedin"
                 className="p-[1px] mx-4  rounded-lg bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
               ></img>
             </a>
@@ -76,6 +77,7 @@ export default function AvatarPicture() {
             <a href="https://github.com/AridanyS" target="_blank">
               <img
                 src="/github.svg"
+                alt="github"
                 className="mx-4  rounded-lg p-[1px] bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake "
               ></img>
             </a>
@@ -83,6 +85,7 @@ export default function AvatarPicture() {
             <button id="copyButton" onClick={handleCopy} target="_blank">
               <img
                 src="/mail.svg"
+                alt="email"
                 className="mx-4  rounded-lg p-[1px] bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
               ></img>
             </button>
