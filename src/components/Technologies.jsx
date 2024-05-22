@@ -10,14 +10,14 @@ export default function Technologies() {
     font-bold text-text-modal-light rounded-lg
     bg-background-page border-8 border-background-page"
       >
-        <p className="flex items-center content-center justify-between p-1 rounded-sm border-background-DarkBrown">
+        <section className="flex items-center content-center justify-between p-1 rounded-sm border-background-DarkBrown">
           Technologies
           <section className="flex gap-2 justify-evenly">
             <section className="w-2 h-2 bg-red-600 rounded-full "></section>
             <section className="w-2 h-2 bg-yellow-400 rounded-full "></section>
             <section className="w-2 h-2 bg-green-400 rounded-full "></section>
           </section>
-        </p>
+        </section>
         <article
           id="Technologies"
           className=" w-[80%] mx-auto my-4 h-[auto] 

@@ -3,6 +3,7 @@
 module.exports = {
   content: [
     "./index.html",
+    
     "./src/components/Avatar.jsx",
     "./src/components/Projects.jsx",
     "./src/components/NavBar.jsx",
@@ -19,7 +20,6 @@ module.exports = {
           "linear-gradient(to left, #3f3f35, #48483d, #525244, #5c5c4c, #666654)",
       },
       fontFamily: {
-
         RobotoMono: ["Roboto Mono", "monospace"],
       },
       colors: {
@@ -28,7 +28,7 @@ module.exports = {
         borderProject: "#FE9835",
 
         "background-Modal": "#0d0d0d",
-        "between": "#525244",
+        between: "#525244",
         "between-light": "#575748",
         "text-modal": "#666654",
         "text-modal-light": "#b3b2a3",
