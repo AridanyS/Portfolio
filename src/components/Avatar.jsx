@@ -40,7 +40,7 @@ export default function AvatarPicture() {
         </h1>
 
         <div className="flex items-center justify-center ">
-          <Avatar src="./images/foto.jfif" className="w-40 h-40" />
+          <Avatar src="/foto.jfif" className="w-40 h-40" />
         </div>
 
         <p className="text-lg" id="AboutMe">
@@ -68,21 +68,21 @@ export default function AvatarPicture() {
               className=""
             >
               <img
-                src="./images/linkedin.svg"
+                src="/linkedin.svg"
                 className="p-[1px] mx-4  rounded-lg bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
               ></img>
             </a>
 
             <a href="https://github.com/AridanyS" target="_blank">
               <img
-                src="./images/github.svg"
+                src="/github.svg"
                 className="mx-4  rounded-lg p-[1px] bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake "
               ></img>
             </a>
 
             <button id="copyButton" onClick={handleCopy} target="_blank">
               <img
-                src="./images/mail.svg"
+                src="/mail.svg"
                 className="mx-4  rounded-lg p-[1px] bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
               ></img>
             </button>

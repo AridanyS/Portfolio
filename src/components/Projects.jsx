@@ -61,7 +61,7 @@ export default function ProjectsGrid() {
         >
           <SwiperSlide className="">
             <video
-              src="../images/drag_drop.mp4"
+              src="/drag_drop.mp4"
               autoPlay
               loop
               muted
@@ -77,7 +77,7 @@ export default function ProjectsGrid() {
                 className="rounded "
               >
                 <img
-                  src="../images/external-link.svg"
+                  src="/external-link.svg"
                   alt="deploy"
                   className="h-5 rounded bg-text-modal-light"
                 ></img>
@@ -88,7 +88,7 @@ export default function ProjectsGrid() {
                 className="rounded "
               >
                 <img
-                  src="../images/github.svg"
+                  src="/github.svg"
                   alt="github"
                   className="h-5 rounded bg-text-modal-light"
                 ></img>
@@ -98,7 +98,7 @@ export default function ProjectsGrid() {
 
           <SwiperSlide className="">
             <video
-              src="../images/chiwawa_video.mp4"
+              src="/chiwawa_video.mp4"
               autoPlay
               loop
               muted
@@ -113,7 +113,7 @@ export default function ProjectsGrid() {
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/external-link.svg"
+                  src="/external-link.svg"
                   alt="deploy"
                   className="h-5 rounded bg-text-modal-light "
                 ></img>
@@ -124,7 +124,7 @@ export default function ProjectsGrid() {
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/github.svg"
+                  src="/github.svg"
                   alt="github"
                   className="h-5 rounded bg-text-modal-light"
                 ></img>
@@ -134,7 +134,7 @@ export default function ProjectsGrid() {
 
           <SwiperSlide className="">
             <img
-              src="../images/rocket.png"
+              src="/rocket.png"
               alt="rocket"
               className="object-cover w-full h-full"
             ></img>
@@ -146,7 +146,7 @@ export default function ProjectsGrid() {
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/external-link.svg"
+                  src="/external-link.svg"
                   alt="deploy"
                   className="h-5 rounded bg-text-modal-light"
                 ></img>
@@ -157,7 +157,7 @@ export default function ProjectsGrid() {
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/github.svg"
+                  src="/github.svg"
                   alt="github"
                   className="h-5 rounded bg-text-modal-light"
                 ></img>
@@ -167,7 +167,7 @@ export default function ProjectsGrid() {
 
           <SwiperSlide className="">
             <img
-              src="../images/airbnb.png"
+              src="/airbnb.png"
               alt="airbnb"
               className="object-cover w-full h-full"
             ></img>
@@ -179,7 +179,7 @@ export default function ProjectsGrid() {
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/external-link.svg"
+                  src="/external-link.svg"
                   alt="deploy"
                   className="h-5 rounded bg-text-modal-light"
                 ></img>
@@ -190,7 +190,7 @@ export default function ProjectsGrid() {
                 className="rounded hover:bg-pink-dark "
               >
                 <img
-                  src="../images/github.svg"
+                  src="/github.svg"
                   alt="github"
                   className="h-5 rounded bg-text-modal-light"
                 ></img>

@@ -27,7 +27,7 @@ export default function Technologies() {
         >
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/html5.svg"
+              src="./html5.svg"
               alt="html"
               className="w-12 h-12 "
             ></img>
@@ -35,13 +35,13 @@ export default function Technologies() {
           </section>
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
-            <img src="../images/css.svg" alt="css" className="w-12 h-12 "></img>
+            <img src="/css.svg" alt="css" className="w-12 h-12 "></img>
             <p className="">CSS</p>
           </section>
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/javascript.svg"
+              src="javascript.svg"
               alt="javascript"
               className="w-12 h-12 "
             ></img>
@@ -50,7 +50,7 @@ export default function Technologies() {
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images\react.svg"
+              src="/react.svg"
               alt="react"
               className="w-12 h-12 "
             ></img>
@@ -58,7 +58,7 @@ export default function Technologies() {
           </section>
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/tailwindcss.svg"
+              src="/tailwindcss.svg"
               alt="tailwindcss"
               className="w-12 h-12 "
             ></img>
@@ -67,7 +67,7 @@ export default function Technologies() {
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/sass.svg"
+              src="/sass.svg"
               alt="sass"
               className="w-12 h-12 "
             ></img>
@@ -76,7 +76,7 @@ export default function Technologies() {
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/vitejs.svg"
+              src="/vitejs.svg"
               alt="vite"
               className="w-12 h-12 "
             ></img>
@@ -85,7 +85,7 @@ export default function Technologies() {
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/nodejs.svg"
+              src="/nodejs.svg"
               alt="sass"
               className="w-12 h-12 "
             ></img>
@@ -94,7 +94,7 @@ export default function Technologies() {
 
           <section id="" className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker">
             <img
-              src="../images/terminal.svg"
+              src="/terminal.svg"
               alt="terminal"
               className="w-12 h-12 "
             ></img>
@@ -106,46 +106,3 @@ export default function Technologies() {
   );
 }
 
-/*const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
-
-  return (
-  
-    <Accordion>
-      <AccordionItem key="1" aria-label="Accordion 1" title="Accordion 1">
-        <section id="Technologies" className="flex items-center gap-8 p-4 ">
-        <img src="../images/css.svg" alt="css" 
-        className="w-1/6 h-1/6 "></img>
-        <p className="">
-            css Es una herramienta de estiado web y probamos lo que ocurre cuando
-            hay mucho contenido en el accordion
-        </p>
-        </section>
-      </AccordionItem>
-
-      <AccordionItem key="2" aria-label="Accordion 2" title="Accordion 2">
-      <section id="Technologies" className="flex items-center gap-8 p-4 ">
-        <img src="../images/css.svg" alt="css" 
-        className="w-1/6 h-1/6 "></img>
-        <p className="">
-            css Es una herramienta de estiado web y probamos lo que ocurre cuando
-            hay mucho contenido en el accordion
-        </p>
-        </section>
-      </AccordionItem>
-
-      <AccordionItem key="3" aria-label="Accordion 3" title="Accordion 3">
-      <section id="Technologies" className="flex items-center gap-8 p-4 ">
-        <img src="../images/css.svg" alt="css" 
-        className="w-1/6 h-1/6 "></img>
-        <p className="">
-            css Es una herramienta de estiado web y probamos lo que ocurre cuando
-            hay mucho contenido en el accordion
-        </p>
-        </section>
-      </AccordionItem>
-    </Accordion>
-  );
-}
-*/
