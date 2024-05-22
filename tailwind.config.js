@@ -19,12 +19,7 @@ module.exports = {
           "linear-gradient(to left, #3f3f35, #48483d, #525244, #5c5c4c, #666654)",
       },
       fontFamily: {
-        Cormorant: ["Cormorant Garamond", "serif"],
-        Roboto: ["Roboto", "sans-serif"],
-        Montserrat: ["Montserrat", "sans-serif"],
-        Caslon: ["Libre Caslon", "Text", "serif"],
-        Titillium: ["Titillium Web", "sans-serif"],
-        workSans: ["Work Sans", "sans-serif"],
+
         RobotoMono: ["Roboto Mono", "monospace"],
       },
       colors: {
