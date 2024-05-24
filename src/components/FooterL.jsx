@@ -19,17 +19,19 @@
           <span className="flex items-center gap-1 ">
             <a href="https://lucide.dev/" target="_blank" 
             className="w-[10px] hover:opacity-50">
-              <img src="/logo.dark.svg"></img>
+              <img src="/logo.dark.svg"
+              alt="Lucide"></img>
             </a>
 
             <a href="https://svgl.app/?search=svg" target="_blank"
             className="w-[10px] hover:opacity-50">
-              <img src="/svgl.svg"></img>
+              <img src="/svgl.svg"
+              alt="svgl_pheralb"></img>
             </a>
         
           </span>
           <span className="mx-1">|</span>
-          <a href="https://mit-license.org/" className=" hover:underline" target="_blank">MIT license </a><img src="/scale.svg" className="w-[10px] bg-text-modal-light opacity-80 rounded m-1 "></img>
+          <a href="https://mit-license.org/" className=" hover:underline" target="_blank">MIT license </a><img src="/scale.svg" className="w-[10px] bg-text-modal-light opacity-80 rounded m-1 " alt="MIT"></img>
         </div>
 
         
