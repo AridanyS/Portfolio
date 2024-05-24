@@ -9,8 +9,9 @@
 
 export default function FooterPortfolio() {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-center gap-2 p-5 text-xs text-text-modal-light bg-background-DarkBrown">
-      <div>Feel free to use every components on <a href="https://github.com/AridanyS/Portfolio" className="hover:underline" target="_blank">this page</a> 🤗</div>
+    <div className="flex flex-col flex-wrap items-center justify-center gap-2 p-4 text-xs text-text-modal-light bg-background-DarkBrown">
+      <div><a href="https://github.com/AridanyS/Portfolio" className="hover:underline" target="_blank">This page</a> is developed by <a href="https://github.com/AridanyS" className="hover:underline" target="_blank">Aridany</a></div>
+      
       <div className="flex items-center justify-center gap-3">
         Icons from:
         <span className="flex items-center gap-3">
@@ -25,6 +26,9 @@ export default function FooterPortfolio() {
           </a>
         </span>
       </div>
+      <div className="flex items-center gap-2"><a href="https://mit-license.org/" className="hover:underline" target="_blank">MIT</a> license <img src="/scale.svg" className="w-[18px]"></img></div>
+      
     </div>
   );
 }
+
