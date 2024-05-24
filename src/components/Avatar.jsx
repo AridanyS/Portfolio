@@ -34,33 +34,40 @@ export default function AvatarPicture() {
 
   return (
     <>
-      <header className="font-bold mt-[35%] flex flex-col gap-12 items-center text-text-modal-light">
-        <h1 id="" className="flex justify-center text-xl">
+      <header className="font-bold xl:mt-[5%] mt-[35%] flex flex-col gap-12 items-center text-text-modal-light">
+        <h1 id="" className="flex justify-center text-xl xl:text-5xl">
           Aridany de la Fe Sarmiento
         </h1>
 
         <div className="flex items-center justify-center ">
-          <Avatar src="/foto.jfif" className="w-40 h-40" />
+          <Avatar
+            src="/foto.jfif"
+            className="w-40 h-40 xl:w-[15vw] xl:h-[30vh]"
+          />
         </div>
 
-        <p className="text-lg" id="AboutMe">
+        <p className="text-lg xl:text-3xl " id="AboutMe">
           Frontend Developer
         </p>
 
         <button
           id="Contact"
-          className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg hover:animate-text-shake text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
+          className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg xl:text-xl xl:w-36 xl:h-16 hover:animate-text-shake text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
           onClick={handleOpen}
           style={{ cursor: "pointer" }}
         >
           About me
         </button>
 
-        <div
-          className="flex flex-col items-center gap-4 font-bold "
-          style={{ cursor: "pointer" }}
-        >
-          Contact
+        <div className="flex flex-col items-center gap-4 font-bold ">
+          <p className="flex items-center gap-3 xl:text-xl xl:mb-4">
+            Contact
+            <img
+              src="/contact.svg"
+              className="p-[1px] w-5 h-5 rounded-lg bg-text-modal-light"
+              alt="contact"
+            ></img>
+          </p>
           <div className="flex">
             <a
               href="https://www.linkedin.com/in/aridany-de-la-fe-sarmiento-707438272/"
@@ -70,7 +77,7 @@ export default function AvatarPicture() {
               <img
                 src="/linkedin.svg"
                 alt="linkedin"
-                className="p-[1px] mx-4  rounded-lg bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
+                className="p-[1px] mx-4 rounded-lg bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
               ></img>
             </a>
 
