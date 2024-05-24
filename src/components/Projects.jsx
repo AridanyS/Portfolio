@@ -34,7 +34,7 @@ export default function ProjectsGrid() {
         
        
           style={{
-            "--swiper-pagination-bullet-size": "9px",
+            "--swiper-pagination-bullet-size": "10px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
             "--swiper-pagination-bottom": "30px",
             "--swiper-pagination-bullet-inactive-opacity": "1",
@@ -50,7 +50,7 @@ export default function ProjectsGrid() {
             rotate: 350,
             stretch: 0,
             depth: 500,
-            modifier: 0,
+            modifier: 1,
             slideShadows: true,
             //scale: 5,
           }}
