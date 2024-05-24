@@ -1,5 +1,9 @@
 import React from "react";
+/* <img
+src="/contact.svg"
+className="p-[1px] w-5 h-5 rounded-lg bg-text-modal-light"alt="contact"></img> */
 import { useState } from "react";
+import { Tooltip } from "@nextui-org/tooltip";
 import { Avatar } from "@nextui-org/avatar";
 import {
   Modal,
@@ -7,14 +11,13 @@ import {
   ModalHeader,
   ModalBody,
   ModalFooter,
-  //Button,
   useDisclosure,
 } from "@nextui-org/react";
 
 export default function AvatarPicture() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [backdrop, setBackdrop] = React.useState("blur");
-
+  const placement = ["top"];
   const handleOpen = () => {
     setBackdrop("blur");
     onOpen();
@@ -34,27 +37,39 @@ export default function AvatarPicture() {
 
   return (
     <>
-      <header className="font-bold xl:mt-[3%] mt-[35%] flex flex-col gap-20 
-      items-center text-text-modal-light">
+      <header
+        className="font-bold xl:mt-[0%] mt-[30%] flex flex-col gap-10 xl:gap-20 
+      items-center text-text-modal-light"
+      >
         <h1 id="" className="flex justify-center text-xl xl:text-5xl">
           Aridany de la Fe Sarmiento
         </h1>
 
         <div className="flex items-center justify-center ">
-          <Avatar
-            src="/foto.jfif"
-            className="w-40 border-[6px] border-background-page h-40 xl:w-[15vw]
-             hover:bg-text-modal-light xl:h-[30vh]"
-          />
+          <Tooltip
+            showArrow={false}
+            content={
+              <p className="px-2 font-bold rounded bg-text-modal-darker text-text-modal-light">
+                Click about me!
+              </p>
+            }
+            placement={placement}
+          >
+            <Avatar
+              src="/foto.jfif"
+              className="w-40 xl:border-[6px] border-4 border-background-page h-40 xl:w-[15vw]
+              xl:h-[30vh]"
+            />
+          </Tooltip>
         </div>
 
-        <p className="text-lg xl:text-3xl " id="AboutMe">
+        <p className="text-lg xl:text-4xl " id="AboutMe">
           Frontend Developer
         </p>
 
         <button
           id="Contact"
-          className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg xl:text-xl xl:w-36 xl:h-16 hover:animate-text-shake text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
+          className="h-10 px-5 transition-colors duration-150 border-2 rounded-lg xl:text-2xl xl:w-auto xl:h-auto hover:animate-text-shake text-text-modal-light border-text-modal-light focus:shadow-outline hover:bg-text-modal-light hover:text-background-page"
           onClick={handleOpen}
           style={{ cursor: "pointer" }}
         >
@@ -62,13 +77,8 @@ export default function AvatarPicture() {
         </button>
 
         <div className="flex flex-col items-center gap-4 font-bold ">
-          <p className="flex items-center gap-3 xl:text-xl xl:mb-4">
+          <p className="flex items-center gap-3 xl:text-xl xl:mb-5">
             Contact
-            <img
-              src="/contact.svg"
-              className="p-[1px] w-5 h-5 rounded-lg bg-text-modal-light"
-              alt="contact"
-            ></img>
           </p>
           <div className="flex">
             <a
@@ -95,11 +105,11 @@ export default function AvatarPicture() {
               <img
                 src="/mail.svg"
                 alt="email"
-                className="mx-4  rounded-lg p-[1px] bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
+                className="mx-4 rounded-lg p-[1px] bg-text-modal-light hover:shadow-xl hover:opacity-70 hover:animate-text-shake"
               ></img>
             </button>
             {copied && (
-              <p className="fixed bottom-0 right-0 z-10 p-1 px-1 text-sm rounded-lg text-text-modal-light bg-background-page opacity-90">
+              <p className="fixed bottom-0 right-0 z-10 p-1 px-1 text-sm rounded-lg xl:bottom-10 xl:right-20 xl:text-xl text-text-modal-light bg-background-page opacity-90">
                 Mail copied to clipboard!
               </p>
             )}

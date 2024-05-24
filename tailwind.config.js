@@ -10,7 +10,7 @@
     "./src/components/FooterL.jsx",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{html,js,react}",
-    "./node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|coverflow|navbar|link|accordion).js",
+    "./node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|coverflow|navbar|link|accordion|tooltip|button).js",
   ],
 
   theme: {

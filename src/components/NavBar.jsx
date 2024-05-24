@@ -23,7 +23,7 @@ export default function NavBar() {
   return (
     <>
       <Navbar
-        className="fixed bg-fondo "
+        className="fixed bg-fondo xl:static "
         onMenuOpenChange={setIsMenuOpen}
         isBlurred="false"
       >
