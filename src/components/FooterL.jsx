@@ -18,13 +18,13 @@
           
           <span className="flex items-center gap-1 ">
             <a href="https://lucide.dev/" target="_blank" 
-            className="w-[13px] lg:w-[25px] hover:opacity-50">
+            className="w-[15px] lg:w-[25px] hover:opacity-50">
               <img src="/logo.dark.svg"
               alt="Lucide"></img>
             </a>
 
             <a href="https://svgl.app/?search=svg" target="_blank"
-            className="w-[13px] lg:w-[25px] hover:opacity-50">
+            className="w-[15px] lg:w-[25px] hover:opacity-50">
               <img src="/svgl.svg"
               alt="svgl_pheralb"></img>
             </a>
