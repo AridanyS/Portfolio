@@ -15,9 +15,9 @@ export default function Technologies() {
           <section className="flex items-center content-center justify-between p-4 rounded-sm xl:text-2xl border-background-DarkBrown">
             Technologies
             <section className="flex gap-2 justify-evenly">
-              <section className="w-2 h-2 bg-red-600 rounded-full "></section>
-              <section className="w-2 h-2 bg-yellow-400 rounded-full "></section>
-              <section className="w-2 h-2 bg-green-400 rounded-full "></section>
+              <section className="bg-red-600 rounded-full xl:h-3 xl:w-3 "></section>
+              <section className="bg-yellow-400 rounded-full xl:h-3 xl:w-3 "></section>
+              <section className="bg-green-400 rounded-full xl:h-3 xl:w-3 "></section>
             </section>
           </section>
           <article

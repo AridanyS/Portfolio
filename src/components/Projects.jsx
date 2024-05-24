@@ -22,12 +22,12 @@ export default function ProjectsGrid() {
           mt-[35vh]
         border-background-page "
       >
-        <section className="flex items-center content-center justify-between pb-2 font-bold bg-background-page text-text-modal-light">
+        <section className="flex items-center content-center justify-between pb-2 font-bold xl:p-3 xl:text-2xl bg-background-page text-text-modal-light">
           Projects
           <section className="flex gap-2 justify-evenly">
-            <section className="w-2 h-2 bg-red-600 rounded-full "></section>
-            <section className="w-2 h-2 bg-yellow-400 rounded-full "></section>
-            <section className="w-2 h-2 bg-green-400 rounded-full "></section>
+            <section className="bg-red-600 rounded-full xl:h-3 xl:w-3 "></section>
+            <section className="bg-yellow-400 rounded-full xl:h-3 xl:w-3 "></section>
+            <section className="bg-green-400 rounded-full xl:h-3 xl:w-3 "></section>
           </section>
         </section>
 
