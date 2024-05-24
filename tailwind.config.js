@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 // eslint-disable-next-line no-undef
-module.exports = {
+(module.exports = {
   content: [
     "./index.html",
     "./src/components/Avatar.jsx",
     "./src/components/Projects.jsx",
     "./src/components/NavBar.jsx",
     "./src/components/Technologies.jsx",
-    "./src/components/Footer.jsx",
+    "./src/components/FooterL.jsx",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{html,js,react}",
     "./node_modules/@nextui-org/theme/dist/components/(avatar|modal|card|coverflow|navbar|link|accordion).js",
@@ -15,7 +15,6 @@ module.exports = {
 
   theme: {
     extend: {
-   
       backgroundImage: {
         fondo:
           "linear-gradient(to left, #3f3f35, #48483d, #525244, #5c5c4c, #666654)",
@@ -60,32 +59,30 @@ module.exports = {
 
         "pink-airbnb": "#fe5b5f",
       },
-         
+
       animation: {
-        "text-shake": "text-shake 1s ease 1"
+        "text-shake": "text-shake 1s ease 1",
       },
       keyframes: {
         "text-shake": {
           "15%": {
-            "transform": "translateX(5px)"
+            transform: "translateX(5px)",
           },
           "30%": {
-            "transform": "translateX(-5px)"
+            transform: "translateX(-5px)",
           },
           "50%": {
-            "transform": "translateX(3px)"
+            transform: "translateX(3px)",
           },
           "80%": {
-            "transform": "translateX(2px)"
+            transform: "translateX(2px)",
           },
           "100%": {
-            "transform": "translateX(0)"
-          }
-        }
-      }
-  }
+            transform: "translateX(0)",
+          },
+        },
+      },
     },
   },
-  {}
-  
-
+}),
+  {};

@@ -8,8 +8,8 @@
 
 export default function FooterPortfolio() {
   return (
-    <div className="relative top-0 w-1/4 border-2 h-1/4">
-        Ñañañañ
+    <div className="border-2 text-slate-50 bg-background-DarkBrown">
+        Ñañañañ34
     </div>
   )
 }
