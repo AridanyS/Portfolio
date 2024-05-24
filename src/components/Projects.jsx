@@ -17,8 +17,9 @@ export default function ProjectsGrid() {
 
       <article
         id=""
-        className="w-[80vw] h-[full] relative my-auto mx-auto rounded-lg bg-background-page border-8 
-        mt-[35vh]
+        className="w-[80vw] xl:w-[40vw] h-[full] relative my-auto mx-auto rounded-lg
+         bg-background-page border-8 
+          mt-[35vh]
         border-background-page "
       >
         <section className="flex items-center content-center justify-between pb-2 font-bold bg-background-page text-text-modal-light">
