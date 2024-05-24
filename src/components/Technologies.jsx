@@ -8,7 +8,7 @@ export default function Technologies() {
       <div id="Technologies" className=""></div>
       <div className="flex justify-center mt-[15vh] mb-[20vh]">
         <div
-          className=" w-[80%] xl:w-[40%]  h-[75vh] 
+          className=" w-[80%] xl:w-[40%] h-[75vh] 
     font-bold text-text-modal-light rounded-lg
     bg-background-page border-8 border-background-page"
         >
@@ -22,14 +22,14 @@ export default function Technologies() {
           </section>
           <article
             id=""
-            className=" w-[80%] mx-auto my-4 max-sm:my-15 h-[60vh] 
+            className=" w-[100%] xl:w-[80%] mx-auto my-4 max-sm:my-15 h-[60vh] 
        grid items-center grid-cols-3 grid-rows-3 
       font-bold text-text-modal-light justify-items-center
       rounded-lg text-sm xl:text-xl "
           >
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img src="./html5.svg" alt="html" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
               <p className="xl:pt-2">HTML</p>
@@ -37,7 +37,7 @@ export default function Technologies() {
 
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img src="/css.svg" alt="css" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
               <p className="xl:pt-2">CSS</p>
@@ -45,7 +45,7 @@ export default function Technologies() {
 
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img
                 src="javascript.svg"
@@ -57,26 +57,26 @@ export default function Technologies() {
 
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img src="/react.svg" alt="react" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
               <p className="xl:pt-2">React</p>
             </section>
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center px-2 py-2 transition-transform duration-300 w-14 h-14 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img
                 src="/tailwindcss.svg"
                 alt="tailwindcss"
                 className="w-12 h-12 xl:w-24 xl:h-24 "
               ></img>
-              <p className="xl:pt-2">TailwindCSS</p>
+              <p className="pt-2 xl:pt-2">TailwindCSS</p>
             </section>
 
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img src="/sass.svg" alt="sass" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
               <p className="xl:pt-2">Sass</p>
@@ -84,7 +84,7 @@ export default function Technologies() {
 
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img src="/vitejs.svg" alt="vite" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
               <p className="xl:pt-2">Vite</p>
@@ -92,7 +92,7 @@ export default function Technologies() {
 
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img src="/nodejs.svg" alt="sass" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
               <p className="xl:pt-2">Node.js</p>
@@ -100,12 +100,12 @@ export default function Technologies() {
 
             <section
               id=""
-              className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
+              className="flex flex-col items-center w-16 h-16 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
               <img
                 src="/terminal.svg"
                 alt="terminal"
-                className="w-12 h-12 xl:w-24 xl:h-24 "
+                className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
               ></img>
               <p className="xl:pt-2">Terminal</p>
             </section>
