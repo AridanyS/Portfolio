@@ -5,15 +5,16 @@ import NavBar from "./components/NavBar.jsx";
 import AvatarPicture from "./components/Avatar.jsx";
 import ProjectsGrid from "./components/Projects.jsx";
 import Technologies from "./components/Technologies.jsx";
-
+import FooterPortfolio from "./components/FooterL.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NextUIProvider>
-      <NavBar/>
+      <NavBar />
       <AvatarPicture />
       <ProjectsGrid />
-      <Technologies/>
+      <Technologies />
+      <FooterPortfolio />
     </NextUIProvider>
   </React.StrictMode>
 );

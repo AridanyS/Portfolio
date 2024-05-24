@@ -17,7 +17,7 @@ export default function ProjectsGrid() {
 
       <article
         id=""
-        className="w-[80%] relative my-auto mx-auto rounded-lg border-8 
+        className="w-[80vw] h-[60vh] relative my-auto mx-auto rounded-lg border-8 
         top-[160px]
         border-background-page "
       >
@@ -32,7 +32,7 @@ export default function ProjectsGrid() {
 
         <Swiper
         
-        autoHeight="false"
+       
           style={{
             "--swiper-pagination-bullet-size": "9px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
@@ -41,6 +41,7 @@ export default function ProjectsGrid() {
             "--swiper-pagination-color": "#b3b2a3",
             "--swiper-pagination-bullet-inactive-color": "#1d1d18",
           }}
+          autoHeight="false"
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -49,7 +50,7 @@ export default function ProjectsGrid() {
             rotate: 350,
             stretch: 0,
             depth: 500,
-            modifier: 1,
+            modifier: 0,
             slideShadows: true,
             //scale: 5,
           }}
@@ -66,7 +67,7 @@ export default function ProjectsGrid() {
               loop
               muted
               alt="web_drag-drop"
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-[50vh]"
             ></video>
 
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] justify-items-center bg-background-page text-text-modal-light ">
@@ -103,7 +104,7 @@ export default function ProjectsGrid() {
               loop
               muted
               alt="restaurante_chiwawa"
-              className="object-cover w-full h-full"
+              className="object-fill w-full h-[50vh]"
             ></video>
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Taquería Chiwawa
