@@ -12,9 +12,9 @@ export default function Technologies() {
     font-bold text-text-modal-light rounded-lg
     bg-background-page border-8 border-background-page"
         >
-          <section className="flex items-center content-center justify-between p-4 rounded-sm xl:text-2xl border-background-DarkBrown">
+          <section className="flex items-center content-center justify-between p-4 rounded-sm xl:text-3xl border-background-DarkBrown">
             Technologies
-            <section className="flex gap-2 justify-evenly">
+            <section className="flex gap-2 xl:gap-4 justify-evenly">
               <section className="w-2 h-2 bg-red-600 rounded-full xl:h-3 xl:w-3 "></section>
               <section className="w-2 h-2 bg-yellow-400 rounded-full xl:h-3 xl:w-3 "></section>
               <section className="w-2 h-2 bg-green-400 rounded-full xl:h-3 xl:w-3 "></section>
@@ -25,14 +25,14 @@ export default function Technologies() {
             className=" w-[80%] mx-auto my-4 max-sm:my-15 h-[60vh] 
        grid items-center grid-cols-3 grid-rows-3 
       font-bold text-text-modal-light justify-items-center
-      rounded-lg text-sm "
+      rounded-lg text-sm xl:text-xl "
           >
             <section
               id=""
               className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
             >
               <img src="./html5.svg" alt="html" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
-              <p className="">HTML</p>
+              <p className="xl:pt-2">HTML</p>
             </section>
 
             <section
@@ -40,7 +40,7 @@ export default function Technologies() {
               className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
             >
               <img src="/css.svg" alt="css" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
-              <p className="">CSS</p>
+              <p className="xl:pt-2">CSS</p>
             </section>
 
             <section
@@ -52,7 +52,7 @@ export default function Technologies() {
                 alt="javascript"
                 className="w-12 h-12 xl:w-24 xl:h-24 "
               ></img>
-              <p className="">JavaScript</p>
+              <p className="xl:pt-2">JavaScript</p>
             </section>
 
             <section
@@ -60,7 +60,7 @@ export default function Technologies() {
               className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
             >
               <img src="/react.svg" alt="react" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
-              <p className="">React</p>
+              <p className="xl:pt-2">React</p>
             </section>
             <section
               id=""
@@ -71,7 +71,7 @@ export default function Technologies() {
                 alt="tailwindcss"
                 className="w-12 h-12 xl:w-24 xl:h-24 "
               ></img>
-              <p className="">TailwindCSS</p>
+              <p className="xl:pt-2">TailwindCSS</p>
             </section>
 
             <section
@@ -79,7 +79,7 @@ export default function Technologies() {
               className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
             >
               <img src="/sass.svg" alt="sass" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
-              <p className="">Sass</p>
+              <p className="xl:pt-2">Sass</p>
             </section>
 
             <section
@@ -87,7 +87,7 @@ export default function Technologies() {
               className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
             >
               <img src="/vitejs.svg" alt="vite" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
-              <p className="">Vite</p>
+              <p className="xl:pt-2">Vite</p>
             </section>
 
             <section
@@ -95,7 +95,7 @@ export default function Technologies() {
               className="flex flex-col items-center px-2 py-2 rounded-xl hover:bg-text-modal-darker"
             >
               <img src="/nodejs.svg" alt="sass" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
-              <p className="">Node.js</p>
+              <p className="xl:pt-2">Node.js</p>
             </section>
 
             <section
@@ -107,7 +107,7 @@ export default function Technologies() {
                 alt="terminal"
                 className="w-12 h-12 xl:w-24 xl:h-24 "
               ></img>
-              <p className="">Terminal</p>
+              <p className="xl:pt-2">Terminal</p>
             </section>
           </article>
         </div>
