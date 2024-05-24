@@ -17,7 +17,7 @@ export default function ProjectsGrid() {
 
       <article
         id=""
-        className="w-[80vw] h-[full] relative my-auto mx-auto rounded-lg border-8 
+        className="w-[80vw] h-[full] relative my-auto mx-auto rounded-lg bg-background-page border-8 
         top-[225px]
         border-background-page "
       >
@@ -31,8 +31,6 @@ export default function ProjectsGrid() {
         </section>
 
         <Swiper
-        
-       
           style={{
             "--swiper-pagination-bullet-size": "10px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
@@ -60,7 +58,6 @@ export default function ProjectsGrid() {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
-          
           <SwiperSlide className="">
             <video
               src="/drag_drop.mp4"
@@ -70,7 +67,7 @@ export default function ProjectsGrid() {
               alt="web_drag-drop"
               className="object-cover w-full h-[55vh]"
             ></video>
-<div className="flex items-center font-bold justify-evenly justify-items-center bg-background-page text-text-modal-light ">
+            <div className="flex items-center font-bold justify-evenly justify-items-center bg-background-page text-text-modal-light ">
               Drag & Drop
               <a
                 href="https://drag-drop-khaki.vercel.app"
@@ -95,7 +92,6 @@ export default function ProjectsGrid() {
                 ></img>
               </a>
             </div>
-            
           </SwiperSlide>
 
           <SwiperSlide className="">
