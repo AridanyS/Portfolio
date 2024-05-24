@@ -5,10 +5,10 @@ import React from "react";
 export default function Technologies() {
   return (
     <>
-    <div id="Technologies" className="mb-[10vh]"></div>
-      <div className="flex justify-center mt-[25vh] mb-[20vh]">
+    <div id="Technologies" className=""></div>
+      <div className="flex justify-center mt-[15vh] mb-[20vh]">
         <div
-          className=" w-[80%] 
+          className=" w-[80%] h-[75vh] 
     font-bold text-text-modal-light rounded-lg
     bg-background-page border-8 border-background-page"
         >
@@ -22,8 +22,8 @@ export default function Technologies() {
           </section>
           <article
             id=""
-            className=" w-[80%] mx-auto my-4 h-[auto] 
-      gap-6 grid items-center grid-cols-3 grid-rows-3 
+            className=" w-[80%] mx-auto my-4 max-sm:my-15 h-[60vh] 
+      gap-8 grid items-center grid-cols-3 grid-rows-3 
       font-bold text-text-modal-light justify-items-center
       rounded-lg text-sm "
           >
