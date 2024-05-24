@@ -34,7 +34,8 @@ export default function AvatarPicture() {
 
   return (
     <>
-      <header className="font-bold xl:mt-[5%] mt-[35%] flex flex-col gap-12 items-center text-text-modal-light">
+      <header className="font-bold xl:mt-[3%] mt-[35%] flex flex-col gap-20 
+      items-center text-text-modal-light">
         <h1 id="" className="flex justify-center text-xl xl:text-5xl">
           Aridany de la Fe Sarmiento
         </h1>
@@ -42,7 +43,8 @@ export default function AvatarPicture() {
         <div className="flex items-center justify-center ">
           <Avatar
             src="/foto.jfif"
-            className="w-40 h-40 xl:w-[15vw] xl:h-[30vh]"
+            className="w-40 border-[6px] border-background-page h-40 xl:w-[15vw]
+             hover:bg-text-modal-light xl:h-[30vh]"
           />
         </div>
 

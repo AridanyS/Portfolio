@@ -36,7 +36,7 @@ export default function NavBar() {
 
         <NavbarContent className="mr-[33%]">
           <NavbarBrand className="">
-            <p className="text-xl font-bold text-text-modal-light">
+            <p className="text-xl font-bold xl:opacity-0 text-text-modal-light">
               Portfolio
             </p>
           </NavbarBrand>
