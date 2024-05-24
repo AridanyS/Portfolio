@@ -9,12 +9,12 @@
 
   export default function FooterPortfolio() {
     return (
-      <div className="flex h-[8vh] justify-center flex-wrap gap-3 items-center p-1 max-sm:text-[8px] text-xs text-text-modal-light bg-background-DarkBrown">
+      <div className="flex h-[5vh] justify-evenly flex-wrap md:gap-3 items-center p-1 max-sm:text-[9px] text-xs text-text-modal-light bg-background-DarkBrown">
         <div><a href="https://github.com/AridanyS/Portfolio" className="hover:underline" target="_blank">This page</a> is developed by <a href="https://github.com/AridanyS" className="hover:underline" target="_blank">Aridany</a></div>
-        
-        <div className="flex items-center gap-2 ">
-          <span className="opacity-0 md:opacity-100">|</span>
-          Icons from:
+
+        <div className="flex items-center gap-1 md:gap-3 ">
+         
+          Icons:
           <span className="flex items-center gap-1 ">
             <a href="https://lucide.dev/" target="_blank" 
             className="w-[10px] hover:opacity-50">
@@ -27,7 +27,7 @@
             </a>
           </span>
           <span className="opacity-0 md:opacity-100">|</span>
-          <a href="https://mit-license.org/" className=" hover:underline" target="_blank">MIT license </a><img src="/scale.svg" className="w-[10px]"></img>
+          <a href="https://mit-license.org/" className=" hover:underline" target="_blank">MIT license </a><img src="/scale.svg" className="w-[10px] bg-text-modal-light opacity-80 rounded "></img>
         </div>
 
         
