@@ -70,7 +70,7 @@ export default function ProjectsGrid() {
               className="object-cover w-full h-[50vh]"
             ></video>
 
-            <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] justify-items-center bg-background-page text-text-modal-light ">
+            <div className="flex items-center w-full h-full font-bold justify-evenly justify-items-center bg-background-page text-text-modal-light ">
               Drag & Drop
               <a
                 href="https://drag-drop-khaki.vercel.app"
@@ -104,7 +104,7 @@ export default function ProjectsGrid() {
               loop
               muted
               alt="restaurante_chiwawa"
-              className="object-fill w-full h-[50vh]"
+              className="object-cover w-full h-[50vh]"
             ></video>
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Taquería Chiwawa
@@ -137,7 +137,7 @@ export default function ProjectsGrid() {
             <img
               src="/rocket.png"
               alt="rocket"
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-[50vh]"
             ></img>
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Acme Rockets
@@ -170,7 +170,7 @@ export default function ProjectsGrid() {
             <img
               src="/airbnb.png"
               alt="airbnb"
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-[50vh]"
             ></img>
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Airbnb
