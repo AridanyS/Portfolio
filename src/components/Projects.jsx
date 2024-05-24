@@ -17,8 +17,8 @@ export default function ProjectsGrid() {
 
       <article
         id=""
-        className="w-[80vw] h-[60vh] relative my-auto mx-auto rounded-lg border-8 
-        top-[160px]
+        className="w-[80vw] h-[full] relative my-auto mx-auto rounded-lg border-8 
+        top-[225px]
         border-background-page "
       >
         <section className="flex items-center content-center justify-between pb-2 font-bold bg-background-page text-text-modal-light">
@@ -60,6 +60,7 @@ export default function ProjectsGrid() {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
+          
           <SwiperSlide className="">
             <video
               src="/drag_drop.mp4"
@@ -67,10 +68,9 @@ export default function ProjectsGrid() {
               loop
               muted
               alt="web_drag-drop"
-              className="object-cover w-full h-[50vh]"
+              className="object-cover w-full h-[55vh]"
             ></video>
-
-            <div className="flex items-center w-full h-full font-bold justify-evenly justify-items-center bg-background-page text-text-modal-light ">
+<div className="flex items-center font-bold justify-evenly justify-items-center bg-background-page text-text-modal-light ">
               Drag & Drop
               <a
                 href="https://drag-drop-khaki.vercel.app"
@@ -95,6 +95,7 @@ export default function ProjectsGrid() {
                 ></img>
               </a>
             </div>
+            
           </SwiperSlide>
 
           <SwiperSlide className="">
@@ -104,7 +105,7 @@ export default function ProjectsGrid() {
               loop
               muted
               alt="restaurante_chiwawa"
-              className="object-cover w-full h-[50vh]"
+              className="object-cover w-full h-[55vh]"
             ></video>
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Taquería Chiwawa
@@ -137,7 +138,7 @@ export default function ProjectsGrid() {
             <img
               src="/rocket.png"
               alt="rocket"
-              className="object-cover w-full h-[50vh]"
+              className="object-cover w-full h-[55vh]"
             ></img>
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Acme Rockets
@@ -170,7 +171,7 @@ export default function ProjectsGrid() {
             <img
               src="/airbnb.png"
               alt="airbnb"
-              className="object-cover w-full h-[50vh]"
+              className="object-cover w-full h-[55vh]"
             ></img>
             <div className="w-[100%] font-bold flex justify-evenly items-center h-[100%] bg-background-page text-text-modal-light ">
               Airbnb
