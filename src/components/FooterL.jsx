@@ -9,7 +9,7 @@
 
   export default function FooterPortfolio() {
     return (
-      <div className="flex h-[5vh] justify-evenly flex-wrap md:gap-3 items-center p-1 max-sm:text-[9px] text-xs text-text-modal-light bg-background-DarkBrown">
+      <div className="flex h-[8vh] justify-evenly flex-wrap md:gap-3 items-center p-3 max-sm:text-[10px] text-xs text-text-modal-light bg-background-DarkBrown">
         <div><a href="https://github.com/AridanyS/Portfolio" className="hover:underline" target="_blank">This page</a> is developed by <a href="https://github.com/AridanyS" className="hover:underline" target="_blank">Aridany</a></div>
 
         <div className="flex items-center md:gap-3 ">
