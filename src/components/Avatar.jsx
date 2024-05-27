@@ -210,7 +210,7 @@ export default function AvatarPicture() {
       </header>
 
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose} placement={"center"}>
-        <ModalContent className="p-1 rounded-lg bg-background-Modal opacity-95 text-text-modal">
+        <ModalContent className="p-1 font-bold rounded-lg bg-background-Modal opacity-95 text-text-modal">
           <>
             <ModalHeader className="flex flex-col gap-1 pt-3 pb-2 text-base font-bold lg:text-lg ">
               <div className="flex gap-3 ">
