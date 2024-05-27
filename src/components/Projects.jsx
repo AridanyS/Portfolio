@@ -13,13 +13,13 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 export default function ProjectsGrid() {
   return (
     <>
-      <div id="Projects" className="relative top-24"></div>
+      <div id="Projects" className="relative top-[40px]"></div>
 
       <article
         id=""
         className="w-[80vw] xl:w-[40vw] h-[full] relative my-auto mx-auto rounded-lg
          bg-background-page border-8 xl:border-[16px]
-          mt-[35vh]
+          mt-[25vh]
         border-background-page "
       >
         <section className="flex items-center content-center justify-between pb-2 font-bold xl:p-3 xl:text-3xl bg-background-page text-text-modal-light">
@@ -47,7 +47,7 @@ export default function ProjectsGrid() {
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 350,
-            stretch: 0,
+            stretch: 4,
             depth: 500,
             modifier: 1,
             slideShadows: true,

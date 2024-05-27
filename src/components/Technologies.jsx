@@ -6,7 +6,7 @@ export default function Technologies() {
   return (
     <>
       <div id="Technologies" className=""></div>
-      <div className="flex justify-center mt-[15vh] mb-[20vh]">
+      <div className="flex justify-center mt-[25vh] mb-[20vh]">
         <div
           className=" w-[80%] xl:w-[40%] h-[75vh] 
     font-bold text-text-modal-light rounded-lg
@@ -22,7 +22,7 @@ export default function Technologies() {
           </section>
           <article
             id=""
-            className=" w-[100%] xl:w-[80%] mx-auto my-4 max-sm:my-15 h-[60vh] 
+            className=" w-[100%] xl:w-[80%] mx-auto max-sm:my-15 h-[60vh] 
        grid items-center grid-cols-3 grid-rows-3 
       font-bold text-text-modal-light justify-items-center
       rounded-lg text-sm xl:text-xl "
