@@ -14,10 +14,7 @@ import {
 function Español() {
   return (
     <>
-      <ModalHeader className="flex flex-col gap-1 pt-0 pb-0 text-base font-bold lg:text-lg ">
-      
-       
-      </ModalHeader>
+      <ModalHeader className="flex flex-col gap-1 pt-0 pb-0 text-base font-bold lg:text-lg "></ModalHeader>
       <ModalBody className="">
         <article>
           <section className=" text-[11px] xl:text-[15px]">
@@ -64,8 +61,7 @@ function Español() {
 function English() {
   return (
     <>
-      <ModalHeader className="flex flex-col gap-1 pt-0 pb-0 text-base font-bold lg:text-lg ">
-      </ModalHeader>
+      <ModalHeader className="flex flex-col gap-1 pt-0 pb-0 text-base font-bold lg:text-lg "></ModalHeader>
       <ModalBody className="">
         <article>
           <section className=" text-[11px] xl:text-[15px]">
@@ -76,10 +72,9 @@ function English() {
               know me a little more, please keep reading.
             </p>
             <p className="mb-2">
-              I have worked in many sectors such as accounting
-              administration, refrigeration installations, warehouses, etc. But
-              the most notable one for me was Web Development, currently
-              focusing on Frontend.
+              I have worked in many sectors such as accounting administration,
+              refrigeration installations, warehouses, etc. But the most notable
+              one for me was Web Development, currently focusing on Frontend.
             </p>
             <p className="mb-2">
               In the Canary Islands, I had the great opportunity to attend an
@@ -209,7 +204,12 @@ export default function AvatarPicture() {
         </div>
       </header>
 
-      <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose} placement={"center"}>
+      <Modal
+        backdrop={backdrop}
+        isOpen={isOpen}
+        onClose={onClose}
+        placement={"center"}
+      >
         <ModalContent className="p-1 font-bold rounded-lg bg-background-Modal opacity-95 text-text-modal">
           <>
             <ModalHeader className="flex flex-col gap-1 pt-3 pb-2 text-base font-bold lg:text-lg ">
@@ -271,7 +271,9 @@ export default function AvatarPicture() {
                 </div>
               </div>
               <p className="flex text-[12px] lg:text-base font-bold">
-                {language === "Español" ? "¡Gracias por leer!" : "Thanks for reading!"}
+                {language === "Español"
+                  ? "¡Gracias por leer!"
+                  : "Thanks for reading!"}
               </p>
             </ModalFooter>
           </>

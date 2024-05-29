@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-//import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 export default function Technologies() {
   return (
@@ -31,7 +30,11 @@ export default function Technologies() {
               id=""
               className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
-              <img src="./html5.svg" alt="html" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
+              <img
+                src="./html5.svg"
+                alt="html"
+                className="w-12 h-12 xl:w-24 xl:h-24 "
+              ></img>
               <p className="xl:pt-2">HTML</p>
             </section>
 
@@ -39,7 +42,11 @@ export default function Technologies() {
               id=""
               className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
-              <img src="/css.svg" alt="css" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
+              <img
+                src="/css.svg"
+                alt="css"
+                className="w-12 h-12 xl:w-24 xl:h-24 "
+              ></img>
               <p className="xl:pt-2">CSS</p>
             </section>
 
@@ -59,7 +66,11 @@ export default function Technologies() {
               id=""
               className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
-              <img src="/react.svg" alt="react" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
+              <img
+                src="/react.svg"
+                alt="react"
+                className="w-12 h-12 xl:w-24 xl:h-24 "
+              ></img>
               <p className="xl:pt-2">React</p>
             </section>
             <section
@@ -78,7 +89,11 @@ export default function Technologies() {
               id=""
               className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
-              <img src="/sass.svg" alt="sass" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
+              <img
+                src="/sass.svg"
+                alt="sass"
+                className="w-12 h-12 xl:w-24 xl:h-24 "
+              ></img>
               <p className="xl:pt-2">Sass</p>
             </section>
 
@@ -86,7 +101,11 @@ export default function Technologies() {
               id=""
               className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
-              <img src="/vitejs.svg" alt="vite" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
+              <img
+                src="/vitejs.svg"
+                alt="vite"
+                className="w-12 h-12 xl:w-24 xl:h-24 "
+              ></img>
               <p className="xl:pt-2">Vite</p>
             </section>
 
@@ -94,7 +113,11 @@ export default function Technologies() {
               id=""
               className="flex flex-col items-center w-12 h-12 px-2 py-2 transition-transform duration-300 rounded-xl xl:w-24 xl:h-24 hover:scale-125"
             >
-              <img src="/nodejs.svg" alt="sass" className="w-12 h-12 xl:w-24 xl:h-24 "></img>
+              <img
+                src="/nodejs.svg"
+                alt="sass"
+                className="w-12 h-12 xl:w-24 xl:h-24 "
+              ></img>
               <p className="xl:pt-2">Node.js</p>
             </section>
 

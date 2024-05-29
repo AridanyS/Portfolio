@@ -5,11 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-//import { EffectCube, Pagination } from "swiper/modules";
+
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
-//import { EffectCreative } from "swiper/modules";
-//absolute top-[100%] left-[10%] Dentro de article id="Projects" y
 export default function ProjectsGrid() {
   return (
     <>
